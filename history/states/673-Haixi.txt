@@ -1,0 +1,13 @@
+state={
+ id=673
+ name="STATE_755"
+ provinces={
+ 1364
+ }
+ manpower=1000004
+ buildings_max_level_factor=1.000
+ state_category = pastoral
+ history={
+}
+ }
+

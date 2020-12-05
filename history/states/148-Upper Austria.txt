@@ -1,0 +1,39 @@
+state={
+ id=148
+ name="STATE_152"
+ manpower = 2275377
+ state_category = city
+ resources={
+ steel=5
+ aluminium=1
+ }
+ history={
+ owner = GER
+ buildings = {
+ infrastructure = 6
+ industrial_complex = 5
+ }
+ victory_points = {
+ 624 10
+ }
+ victory_points = {
+ 2737 3
+ }
+ victory_points = {
+ 6277 3
+ }
+ victory_points = {
+ 660 10
+ }
+ add_core_of = GER
+ 1938.3.12 = {
+ owner = GER
+ controller = GER
+ add_core_of = GER
+ }
+ }
+ provinces={
+ 624 660 2737 2738 2745 2758 4449 4550 4553 4564 4574 6269 6277 6994 7020
+ }
+ }
+

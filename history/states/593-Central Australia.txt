@@ -1,0 +1,17 @@
+state={
+ id=593
+ name="STATE_674"
+ manpower = 30000
+ state_category = wasteland
+ impassable = yes
+ history={
+ 
+ buildings = {
+}
+ 
+ }
+ provinces={
+ 1090
+ }
+ }
+

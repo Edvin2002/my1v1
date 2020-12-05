@@ -1,0 +1,24 @@
+state={
+ id=543
+ name="STATE_622"
+ resources={
+ steel=3.000
+ tungsten=3.000
+ }
+ history={
+ 
+ 
+ victory_points = {
+ 469 3
+ }
+ buildings = {
+}
+ }
+ provinces={
+ 469
+ }
+ manpower=7006200
+ buildings_max_level_factor=1.000
+ state_category=city
+ }
+

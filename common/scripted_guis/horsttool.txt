@@ -1,0 +1,327 @@
+scripted_gui = {
+
+	st_country_powers = {
+
+		context_type = player_context
+
+		window_name = "horsttool_container"
+
+		visible = {
+			NOT = {tag=SWE}
+			AND = {
+				
+				SOV = {has_country_flag = transfer_enabled}
+				GER = {has_country_flag = transfer_enabled}
+			}
+		}
+
+		effects = {
+			add_cheat_click={
+			SOV = {
+			create_wargoal = {
+			type = puppet_wargoal_focus
+			target = GER
+			}
+			delete_unit_template_and_units = {
+			division_template = "Infantry Division"
+				disband = yes #will refund equipment and manpower
+				}
+			delete_unit_template_and_units = {
+			division_template = "Tank Division"
+				disband = yes #will refund equipment and manpower
+				}
+				}
+			GER = {
+			create_wargoal = {
+			type = puppet_wargoal_focus
+			target = SOV
+			}
+			delete_unit_template_and_units = {
+			division_template = "Infantry Division"
+				disband = yes #will refund equipment and manpower
+				}
+			delete_unit_template_and_units = {
+			division_template = "Tank Division"
+				disband = yes #will refund equipment and manpower
+				}
+				}
+				SOV = {clr_country_flag = transfer_enabled}
+				GER = {clr_country_flag = transfer_enabled}
+			GER = {division_template = {
+					name = "Infantry Division"
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 0 y = 3 }
+						artillery_brigade = { x = 0 y = 4 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+						infantry = { x = 1 y = 3 }
+						artillery_brigade = { x = 1 y = 4 }
+						infantry = { x = 2 y = 0 }
+						infantry = { x = 2 y = 1 }
+						infantry = { x = 2 y = 2 }
+						artillery_brigade = { x = 2 y = 3 }
+						infantry = { x = 3 y = 0 }
+						infantry = { x = 3 y = 1 }
+						infantry = { x = 3 y = 2 }
+						artillery_brigade = { x = 3 y = 3 }
+					}
+					support = {
+						engineer = { x = 0 y = 0 }
+						artillery = { x = 0 y = 1 }
+						recon = { x = 0 y = 2  }
+						logistics_company = { x = 0 y = 4  }
+						signal_company = { x = 0 y = 5  }
+					}
+					priority = 2
+				}
+				64 = {
+					for_loop_effect = {
+						end = SOV.min_fuel
+						create_unit = {
+							division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.3"
+							owner = GER
+							prioritize_location=4427
+						}
+						}
+				}
+			division_template = {
+			name = "Tank Division"
+			regiments = {
+				medium_armor = { x = 0 y = 0 }
+				medium_armor = { x = 0 y = 1 }
+				medium_armor = { x = 0 y = 2 }
+				medium_armor = { x = 0 y = 3 }
+				medium_armor = { x = 1 y = 0 }
+				medium_armor = { x = 1 y = 1 }
+				medium_armor = { x = 1 y = 2 }
+				medium_armor = { x = 1 y = 3 }
+				medium_armor = { x = 2 y = 0 }
+				medium_armor = { x = 2 y = 1 }
+				medium_armor = { x = 2 y = 2 }
+				medium_armor = { x = 2 y = 3 }
+				motorized = { x = 3 y = 0 }
+				motorized = { x = 3 y = 1 }
+				motorized = { x = 3 y = 2 }
+				motorized = { x = 3 y = 3 }
+				motorized = { x = 4 y = 0 }
+				motorized = { x = 4 y = 1 }
+				motorized = { x = 4 y = 2 }
+				motorized = { x = 4 y = 3 }
+			}
+			support = {
+				mot_recon = { x = 0 y = 0 }
+				engineer = { x = 0 y = 1 }
+				artillery = { x = 0 y = 2 }
+				logistics_company = { x = 0 y = 3 }
+				signal_company = { x = 0 y = 4 }
+			}
+			}
+			64 = {
+					for_loop_effect = {
+						end = GER.min_fuel
+						create_unit = {
+							division = "name = \"Tank Division\" division_template = \"Tank Division\" start_experience_factor = 0.3"
+							owner = GER
+							prioritize_location=4427
+						}
+						}
+				}
+			SOV= {
+			division_template = {
+					name = "Infantry Division"
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 0 y = 3 }
+						artillery_brigade = { x = 0 y = 4 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+						infantry = { x = 1 y = 3 }
+						artillery_brigade = { x = 1 y = 4 }
+						infantry = { x = 2 y = 0 }
+						infantry = { x = 2 y = 1 }
+						infantry = { x = 2 y = 2 }
+						artillery_brigade = { x = 2 y = 3 }
+						infantry = { x = 3 y = 0 }
+						infantry = { x = 3 y = 1 }
+						infantry = { x = 3 y = 2 }
+						artillery_brigade = { x = 3 y = 3 }
+					}
+					support = {
+						engineer = { x = 0 y = 0 }
+						artillery = { x = 0 y = 1 }
+						recon = { x = 0 y = 2  }
+						logistics_company = { x = 0 y = 4  }
+						signal_company = { x = 0 y = 5  }
+					}
+					priority = 2
+				}
+				212 = {
+					for_loop_effect = {
+						end = SOV.min_fuel
+						create_unit = {
+							division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.3"
+							owner = SOV
+						prioritize_location=4304
+						}
+						}
+				}
+			division_template = {
+			name = "Tank Division"
+			regiments = {
+				medium_armor = { x = 0 y = 0 }
+				medium_armor = { x = 0 y = 1 }
+				medium_armor = { x = 0 y = 2 }
+				medium_armor = { x = 0 y = 3 }
+				medium_armor = { x = 1 y = 0 }
+				medium_armor = { x = 1 y = 1 }
+				medium_armor = { x = 1 y = 2 }
+				medium_armor = { x = 1 y = 3 }
+				medium_armor = { x = 2 y = 0 }
+				medium_armor = { x = 2 y = 1 }
+				medium_armor = { x = 2 y = 2 }
+				medium_armor = { x = 2 y = 3 }
+				motorized = { x = 3 y = 0 }
+				motorized = { x = 3 y = 1 }
+				motorized = { x = 3 y = 2 }
+				motorized = { x = 3 y = 3 }
+				motorized = { x = 4 y = 0 }
+				motorized = { x = 4 y = 1 }
+				motorized = { x = 4 y = 2 }
+				motorized = { x = 4 y = 3 }
+			}
+			support = {
+				mot_recon = { x = 0 y = 0 }
+				engineer = { x = 0 y = 1 }
+				artillery = { x = 0 y = 2 }
+				logistics_company = { x = 0 y = 3 }
+				signal_company = { x = 0 y = 4 }
+			}
+			}
+		}}
+		212 = {
+			for_loop_effect = {
+				end = GER.min_fuel
+				create_unit = {
+					division = "name = \"Tank Division\" division_template = \"Tank Division\" start_experience_factor = 0.3"
+					owner = SOV
+					prioritize_location=4304
+				}
+				}}
+			}
+			observer_click = { 
+					PHI = {change_tag_from =GER}
+					PHI = {change_tag_from =SWE}
+					PHI = {change_tag_from =SOV}
+
+				
+
+			}
+
+			whitepeace_click  = {
+					
+						SOV = { white_peace = GER }
+					
+				
+			}
+			increase_min_fuel_button_click={
+				if = {limit = {OR={tag=GER tag=SOV} }
+				add_to_variable={min_fuel=1}
+				clamp_variable={
+					var=min_fuel
+					min=0
+					max=100
+				}
+				}
+				else = {
+				add_to_variable={min_fuel=0.05}
+				clamp_variable={
+					var=min_fuel
+					min=-1
+					max=1
+				}
+				}
+			}
+			decrease_min_fuel_button_click={
+				if = {limit = {OR={tag=GER tag=SOV} }
+				add_to_variable={min_fuel=-1}
+				clamp_variable={
+					var=min_fuel
+					min=0
+					max=100
+				}
+				}
+				else = {
+				add_to_variable={min_fuel=-0.05}
+				clamp_variable={
+					var=min_fuel
+					min=-1
+					max=1
+				}
+				}
+			}
+			increase_min_fuel_button_shift_click={
+				if = {limit = {OR={tag=GER tag=SOV} }
+				add_to_variable={min_fuel=5}
+				clamp_variable={
+					var=min_fuel
+					min=0
+					max=100
+				}
+				}
+				else = {
+				add_to_variable={min_fuel=0.1}
+				clamp_variable={
+					var=min_fuel
+					min=-1
+					max=1
+				}
+				}
+			}
+			decrease_min_fuel_button_shift_click={
+				if = {limit = {OR={tag=GER tag=SOV} }
+				add_to_variable={min_fuel=-5}
+				clamp_variable={
+					var=min_fuel
+					min=0
+					max=100
+				}
+				}
+				else = {
+				add_to_variable={min_fuel=-0.1}
+				clamp_variable={
+					var=min_fuel
+					min=-1
+					max=1
+				}
+				}
+			}
+
+
+		}
+		dynamic_lists = {
+			fuel_faction_members_gridbox = {
+				array = GLOBAL.faction_members_array
+				entry_container = fuel_faction_members_entry
+				change_scope = yes
+			}
+		}
+		triggers = {
+
+			observer_click_enabled = {
+				owner = {
+					is_ai=no}
+			}
+
+
+		}
+
+	}
+}
+

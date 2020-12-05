@@ -1,0 +1,15 @@
+state={
+ id=351
+ name="STATE_384"
+ manpower = 1377962
+ state_category = USA_state
+ history={
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 1171
+ }
+ }
+

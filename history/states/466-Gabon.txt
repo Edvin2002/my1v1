@@ -1,0 +1,23 @@
+state={
+ id=466
+ name="STATE_539"
+ history={
+ 
+ 
+ victory_points = {
+ 3227 15
+ }
+ buildings = {
+}
+ }
+ provinces={
+ 3227
+ }
+ manpower=409752
+ resources={
+ steel=50
+ }
+ buildings_max_level_factor=1.000
+ state_category=french_colony
+ }
+

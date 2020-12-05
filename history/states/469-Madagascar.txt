@@ -1,0 +1,22 @@
+state={
+ id=469
+ name="STATE_543"
+ manpower = 3694611
+ state_category = french_colony
+ resources={
+ rubber=4
+ }
+ history={
+ 
+ 
+ victory_points = {
+ 1425 1
+ }
+ buildings = {
+}
+ }
+ provinces={
+ 1425
+ }
+ }
+

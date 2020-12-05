@@ -1,0 +1,19 @@
+state={
+ id=146
+ name="STATE_150"
+ manpower = 611100
+ state_category = town
+ resources={
+ steel=3
+ }
+ history={
+ buildings = {
+ infrastructure = 4
+ industrial_complex = 1
+ }
+ }
+ provinces={
+7 37 125 128 130 147 170 2200 2217 2249 2253 2287 2296 2301 2315 2340 4023 4059 4103 4115 4121 4158 5818 5823 5856 5858 5898 5904 5912 5951 6548 6565 6585 6588 6636 6679 6686 7320 7324 7325 7326 7327 7328 7330 7331 7333
+ }
+ }
+

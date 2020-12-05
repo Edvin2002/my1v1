@@ -1,0 +1,25 @@
+state={
+ id=17
+ name="STATE_17"
+ manpower = 1517500
+ state_category = city
+ resources={
+ steel=28
+ }
+ history={
+ 
+ victory_points = {
+ 473 5
+ }
+ victory_points = {
+ 473 5
+ }
+ buildings = {
+}
+ 
+ }
+ provinces={
+ 473
+ }
+ }
+

@@ -1,0 +1,17 @@
+state={
+ id=134
+ name="STATE_138"
+ manpower = 1
+ state_category = city
+ history={
+	buildings = {
+	radar_station = 5	
+ }
+ owner = SWE
+ add_core_of = SWE
+ }
+ provinces={
+2448
+ }
+ }
+

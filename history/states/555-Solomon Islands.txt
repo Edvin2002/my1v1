@@ -1,0 +1,17 @@
+state={
+ id=555
+ name="STATE_634"
+ history={
+ 
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 843
+ }
+ manpower=150000
+ buildings_max_level_factor=1
+ state_category="small_island"
+ }
+

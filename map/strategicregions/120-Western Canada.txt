@@ -1,0 +1,8 @@
+strategic_region={
+ id=120
+ name="STRATEGICREGION_122"
+ provinces={
+467 662 682 775 986 1160 1265 7347 7353
+ }
+ }
+

@@ -1,0 +1,21 @@
+state={
+ id=450
+ name="STATE_523"
+ history={
+ 
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 910
+ }
+ manpower=1077000
+ resources={
+ rubber=10
+ steel=20
+ oil=10}
+ buildings_max_level_factor=1
+ state_category="rural"
+ }
+

@@ -1,0 +1,8 @@
+strategic_region={
+ id=193
+ name="STRATEGICREGION_199"
+ provinces={
+747 1153 1237 1271
+ }
+ }
+

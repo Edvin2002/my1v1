@@ -1,0 +1,39 @@
+state={
+ id=4
+ name="STATE_4"
+ manpower = 2595983
+ resources={
+ oil=2
+ }
+ state_category = large_city
+ history={
+ owner = GER
+ victory_points = {
+ 7029 30.0
+ }
+ victory_points = {
+ 6267 5
+ }
+ buildings = {
+ infrastructure = 7
+ arms_factory = 3
+ industrial_complex = 5
+ air_base = 6
+ }
+ add_core_of = GER
+ 1938.3.12 = {
+ owner = GER
+ controller = GER
+ add_core_of = GER
+ }
+ 1939.1.1 = {
+ buildings = {
+ anti_air_building = 5
+ }
+ }
+ }
+ provinces={
+ 597 637 2756 2767 4552 4585 6185 6265 6267 6275 6285 7006 7029
+ }
+ }
+

@@ -1,0 +1,27 @@
+state={
+ id=128
+ name="STATE_130"
+ manpower = 4762495
+ state_category = metropolis
+ resources={
+ steel=71
+ }
+ history={
+ 
+ victory_points = {
+ 4212 15
+ }
+ victory_points = {
+ 4212 10
+ }
+ victory_points = {
+ 4212 3
+ }
+ buildings = {
+}
+ }
+ provinces={
+ 4212
+ }
+ }
+

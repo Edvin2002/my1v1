@@ -1,0 +1,13 @@
+state={
+ id=669
+ name="STATE_751"
+ provinces={
+ 1352
+ }
+ manpower=300000
+ buildings_max_level_factor=1.000
+ state_category=rural
+ history={
+}
+ }
+

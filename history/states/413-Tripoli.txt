@@ -1,0 +1,19 @@
+state={
+ id=413
+ name="STATE_448"
+ manpower = 469136
+ state_category = town
+ history={
+ 
+ 
+ victory_points = {
+ 877 10
+ }
+ buildings = {
+}
+ }
+ provinces={
+ 877
+ }
+ }
+

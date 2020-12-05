@@ -1,0 +1,23 @@
+state={
+ id=275
+ name="STATE_288"
+ manpower = 10722500
+ state_category = town
+ resources={
+ rubber=3
+ tungsten = 92
+ }
+ history={
+ 
+ 
+ victory_points = {
+ 820 5
+ }
+ buildings = {
+}
+ }
+ provinces={
+ 820
+ }
+ }
+

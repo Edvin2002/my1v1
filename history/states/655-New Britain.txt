@@ -1,0 +1,17 @@
+state={
+ id=655
+ name="STATE_737"
+ history={
+ 
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 964
+ }
+ manpower=345640
+ buildings_max_level_factor=1
+ state_category="rural"
+ }
+

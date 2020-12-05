@@ -1,0 +1,19 @@
+state={
+ id=635
+ name="STATE_717"
+ state_category = pastoral
+ history={
+ 
+ 
+ 
+ buildings = {
+}
+ }
+ impassable=yes
+ provinces={
+ 690
+ }
+ manpower=5224174
+ buildings_max_level_factor=1.000
+ }
+

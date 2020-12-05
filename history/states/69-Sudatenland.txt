@@ -1,0 +1,57 @@
+state=
+ {
+ id=69
+ name="STATE_69"
+ manpower = 2830000
+ state_category = city
+ resources={
+ steel=4
+ }
+ history={
+ victory_points = {
+ 2681 3
+ }
+ victory_points = {
+ 6863 1
+ }
+ victory_points = {
+ 6836 3
+ }
+ owner = GER
+ buildings = {
+ infrastructure = 8
+ arms_factory = 3
+ industrial_complex = 4
+ anti_air_building = 1
+ 376 = {
+ bunker = 1
+ }
+ 421 = {
+ bunker = 1
+ }
+ 2681 = {
+ bunker = 1
+ }
+ 3287 = {
+ bunker = 1
+ }
+ 4383 = {
+ bunker = 1
+ }
+ 6210 = {
+ bunker = 1
+ }
+ 6863 = {
+ bunker = 1
+ }
+ }
+ add_core_of = GER
+ 1938.9.30 = {
+ owner = GER
+ controller = GER
+ }
+ }
+ provinces= {
+ 376 421 492 504 2541 2681 3287 4383 4946 6210 6836 6847 6863 6937}
+ }
+

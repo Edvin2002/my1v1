@@ -1,0 +1,18 @@
+state={
+ id=361
+ name="STATE_394"
+ manpower = 2939004
+ state_category = USA_state
+ resources={
+ steel=53
+ }
+ history={
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 636
+ }
+ }
+

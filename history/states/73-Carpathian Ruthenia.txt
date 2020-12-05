@@ -1,0 +1,28 @@
+state={
+ id=73
+ name="STATE_73"
+ manpower = 854300
+ state_category = city
+ history={
+ victory_points = {
+ 2649 1
+ }
+ owner = GER
+ buildings = {
+ industrial_complex = 2
+ infrastructure = 5
+ }
+ add_core_of = GER
+ add_claim_by = GER
+ 1939.3.14 = {
+ owner = GER
+ controller = HUN
+ remove_claim_by = HUN
+ add_core_of = GER
+ }
+ }
+ provinces={
+ 2649 4466 6215 6947 7043
+ }
+ }
+

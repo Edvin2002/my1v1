@@ -1,0 +1,19 @@
+state={
+ id=642
+ name="STATE_724"
+ manpower = 2041700
+ state_category = rural
+ resources={
+ rubber=35
+ }
+ history={
+ 
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 960
+ }
+ }
+

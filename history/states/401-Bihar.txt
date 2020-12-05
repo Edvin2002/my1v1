@@ -1,0 +1,23 @@
+state={
+ id=401
+ name="STATE_435"
+ resources={
+ aluminium=60
+ }
+ history={
+ 
+ 
+ victory_points = {
+ 1048 1
+ }
+ buildings = {
+}
+ }
+ provinces={
+ 1048
+ }
+ manpower=36574500
+ buildings_max_level_factor=1.000
+ state_category=rural
+ }
+

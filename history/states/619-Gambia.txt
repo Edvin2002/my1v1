@@ -1,0 +1,20 @@
+state={
+ id=619
+ name="STATE_701"
+ history={
+ 
+ 
+ victory_points = {
+ 3199 1
+ }
+ buildings = {
+}
+ }
+ provinces={
+ 3199
+ }
+ manpower=199520
+ buildings_max_level_factor=1.000
+ state_category=enclave
+ }
+

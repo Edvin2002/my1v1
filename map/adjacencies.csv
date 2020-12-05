@@ -1,0 +1,161 @@
+From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+3862;3836;sea;2834;-1;-1;-1;-1;Adriatic Strait;adriatic
+751;4427;sea;;-1;-1;-1;-1;Berlin-Madrid;Berlin-Madrid
+751;7029;sea;;-1;-1;-1;-1;Vienna-Madrid;Vienna-Madrid
+7265;7123;sea;;-1;-1;-1;-1;Amur-Khabarovsk;Amur-Khabarovsk
+4778;1035;sea;3297;-1;-1;-1;-1;;Moluccas
+6353;1035;sea;3271;-1;-1;-1;-1;;Moluccas
+5624;1483;sea;3044;1560;1009;1556;1016;PANAMA_CANAL;Panama
+1926;1605;sea;4201;2949;1598;2962;1612;KIEL_CANAL;Kiel
+1089;2113;sea;3192;-1;-1;-1;-1;IRAN_CANAL;Countenance
+2879;673;impassable;-1;-1;-1;-1;-1;;gibraltarspain
+848;2879;impassable;-1;-1;-1;-1;-1;;gibraltarspain
+2879;848;impassable;-1;-1;-1;-1;-1;;gibraltarspain
+7287;6385;sea;3414;-1;-1;-1;-1;;Portugese Timor-Lesser Sunda
+6368;868;sea;5589;-1;-1;-1;-1;;Kalimantan-Sulawesi
+1012;946;sea;2072;-1;-1;-1;-1;;Calapan-Cebu
+946;912;sea;5518;-1;-1;-1;-1;;Cebu-Samar
+922;946;sea;2094;-1;-1;-1;-1;;cebu-mindano
+6424;4763;sea;3165;-1;-1;-1;-1;;Moluccas
+135;6644;sea;;-1;-1;-1;-1;;Leningrad;Olonets
+3389;708;sea;1;-1;-1;-1;-1;SUEZ_CANAL;Suez
+2448;2408;sea;1580;-1;-1;-1;-1;;Skåne-Sjaelland
+281;2408;;1605;-1;-1;-1;-1;;Fyn-Jylland
+281;2408;;1605;2956;1628;2960;1629;;Fyn-SdrJylland
+79;163;sea;1281;-1;-1;-1;-1;;Estonia-Ösel
+163;4154;sea;1281;-1;-1;-1;-1;;Ösel-Dagö
+79;4154;sea;1150;-1;-1;-1;-1;;Dagö-Estonia
+767;2824;sea;3578;-1;-1;-1;-1;;Sardinia-Corsica
+2834;815;sea;3680;-1;-1;-1;-1;;Calabria-Sicily
+4772;1027;sea;3614;4461;600;4467;603;;Bangka Belitung-Sumatra
+996;6404;sea;1911;4455;557;4458;552;;Java-Sumatra
+4772;2884;sea;2892;-1;-1;-1;-1;;Bangka-Belitung
+1062;7095;sea;716;-1;-1;-1;-1;;Tanahbala-Sumatra
+7095;1038;sea;716;-1;-1;-1;-1;;Tanahbala-Siberut
+2932;3038;sea;3665;4562;538;4566;538;;Soerbaja-Madura
+4847;2920;sea;1637;4590;516;4596;517;;Java-Bali
+4732;2920;sea;1439;4611;516;4617;514;;Bali-Lombok
+4732;6373;sea;1439;-1;-1;-1;-1;;Lombok-W.Nusa Tenggara
+7108;973;sea;1388;4663;514;4669;514;;West Nusa Tenggara-East Nusa Tenggara
+7104;6385;sea;3414;-1;-1;-1;-1;;East Nusa Tenggara-Pulau Alor
+7190;6387;sea;3514;-1;-1;-1;-1;;Sulawesi-Pulau Buton
+922;912;sea;5518;-1;-1;-1;-1;;Surigao-Leyte
+912;1012;sea;2052;-1;-1;-1;-1;;San Bernardino Strait
+1012;909;sea;2072;-1;-1;-1;-1;;Mindoro-Batangas
+4832;1122;sea;3391;-1;-1;-1;-1;;Buru-Seram
+4832;4763;sea;3165;-1;-1;-1;-1;;Buru-Taliabu
+6424;1042;sea;3165;-1;-1;-1;-1;;Obi-Bacan
+4778;1042;sea;3165;-1;-1;-1;-1;;Halmahera-Bacan
+3015;4829;sea;1782;-1;-1;-1;-1;;Papua-Japen
+910;964;sea;382;5112;550;5122;559;;Papua-New Britain
+1424;1120;sea;3636;-1;-1;-1;-1;;North-South NZ Islands
+749;1206;sea;1707;-1;-1;-1;-1;;Sakhalin-Siberia
+867;825;sea;4973;-1;-1;-1;-1;;Japan-Kyushu
+2878;867;sea;5558;-1;-1;-1;-1;;Shikoku-Chugoku
+2878;851;sea;5558;-1;-1;-1;-1;;Shikoku-Kansai
+1026;1097;sea;2991;-1;-1;-1;-1;;Kurils-Hokkaido
+825;2878;sea;5558;-1;-1;-1;-1;;Kyushu-Shikoku
+1223;1102;sea;3769;-1;-1;-1;-1;;Adelaide-Kangaroo Island
+1324;138;sea;1768;-1;-1;-1;-1;;Curacao-Zulia
+3162;2429;sea;1794;-1;-1;-1;-1;;Miranda-Trinidad
+337;157;sea;3532;-1;-1;-1;-1;;St Lucia-Martinique
+157;2984;sea;3532;-1;-1;-1;-1;;Martinique-Dominica
+2984;157;sea;3532;-1;-1;-1;-1;;Dominica-Guadeloupe
+157;2984;sea;2082;-1;-1;-1;-1;;Guadeloupe-Montserrat
+2984;157;sea;2082;-1;-1;-1;-1;;Montserrat-Anguilla
+157;1044;sea;3506;-1;-1;-1;-1;;Anguilla-Virgin Islands
+4447;692;sea;4790;-1;-1;-1;-1;;Lesbos-Turkey
+4447;778;sea;4693;-1;-1;-1;-1;;Chios-Turkey
+4662;811;sea;4693;-1;-1;-1;-1;;Kos-Bodrum
+4662;811;sea;4693;-1;-1;-1;-1;;Rhodes-Turkey
+6286;4586;sea;5053;-1;-1;-1;-1;;Kerch Strait
+829;1097;sea;3944;-1;-1;-1;-1;;Tsugaru Strait
+902;986;sea;3262;-1;-1;-1;-1;;Vancouver-Strait
+6647;2313;sea;3790;-1;-1;-1;-1;;Northern-Straits
+6598;87;sea;3790;-1;-1;-1;-1;;Northern-Straits
+44;6569;sea;3790;-1;-1;-1;-1;;Northern-Straits
+22;2203;sea;3790;-1;-1;-1;-1;;Northern-Straits
+3407;3383;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar North
+3407;1598;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar South
+1652;1703;;-1;-1;-1;-1;-1;DANISH_BELTS_STRAIT;Øresund
+3412;4853;;-1;-1;-1;-1;-1;BOSPHORUS_STRAIT;Bosphorus
+2964;1351;impassable;-1;-1;-1;-1;-1;;Himalayas
+2964;1335;impassable;-1;-1;-1;-1;-1;;Himalayas
+875;1351;impassable;-1;-1;-1;-1;-1;;Himalayas
+875;2973;impassable;-1;-1;-1;-1;-1;;Himalayas
+864;2973;impassable;-1;-1;-1;-1;-1;;Himalayas
+882;1335;impassable;-1;-1;-1;-1;-1;;Himalayas
+1344;3209;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+3209;1344;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+1300;3209;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+1344;1328;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+872;1328;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+893;1328;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+7281;3209;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+7281;1227;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+6439;3209;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+4991;3209;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+4692;3209;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+7134;3209;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+7175;1227;impassable;-1;-1;-1;-1;-1;;pamir mountains
+3208;1227;impassable;-1;-1;-1;-1;-1;;pamir mountains
+3115;1227;impassable;-1;-1;-1;-1;-1;;pamir mountains
+2968;1227;impassable;-1;-1;-1;-1;-1;;pamir mountains
+2968;1188;impassable;-1;-1;-1;-1;-1;;pamir mountains
+6457;1101;impassable;-1;-1;-1;-1;-1;;Iran
+7170;1101;impassable;-1;-1;-1;-1;-1;;Iran
+4811;1101;impassable;-1;-1;-1;-1;-1;;Iran
+4833;1101;impassable;-1;-1;-1;-1;-1;;Iran
+3191;1101;impassable;-1;-1;-1;-1;-1;;Iran
+6457;7174;impassable;-1;-1;-1;-1;-1;;Iran
+1101;7174;impassable;-1;-1;-1;-1;-1;;Iran
+7166;1145;impassable;-1;-1;-1;-1;-1;;Iran
+4659;1145;impassable;-1;-1;-1;-1;-1;;Iran
+3053;1145;impassable;-1;-1;-1;-1;-1;;Iran
+6307;1145;impassable;-1;-1;-1;-1;-1;;Iran
+6307;3025;impassable;-1;-1;-1;-1;-1;;Iran
+7050;3025;impassable;-1;-1;-1;-1;-1;;Iran
+3025;7188;impassable;-1;-1;-1;-1;-1;;Iran
+1340;1303;impassable;-1;-1;-1;-1;-1;;kongo
+894;1303;impassable;-1;-1;-1;-1;-1;;kongo
+894;2827;impassable;-1;-1;-1;-1;-1;;kongo
+1300;1227;impassable;-1;-1;-1;-1;-1;;sinkiang
+3206;1227;impassable;-1;-1;-1;-1;-1;;sinkiang
+3206;3195;impassable;-1;-1;-1;-1;-1;;sinkiang
+4008;5930;impassable;-1;-1;-1;-1;-1;;Finland
+4008;71;impassable;-1;-1;-1;-1;-1;;Finland
+4142;71;impassable;-1;-1;-1;-1;-1;;Finland
+4099;71;impassable;-1;-1;-1;-1;-1;;Finland
+6593;71;impassable;-1;-1;-1;-1;-1;;Finland
+6593;15;impassable;-1;-1;-1;-1;-1;;Finland
+6593;5871;impassable;-1;-1;-1;-1;-1;;Finland
+174;5871;impassable;-1;-1;-1;-1;-1;;Finland
+174;6668;impassable;-1;-1;-1;-1;-1;;Finland
+5894;6668;impassable;-1;-1;-1;-1;-1;;Finland
+5894;5834;impassable;-1;-1;-1;-1;-1;;Finland
+5894;5925;impassable;-1;-1;-1;-1;-1;;Finland
+4033;5834;impassable;-1;-1;-1;-1;-1;;Finland
+2253;5834;impassable;-1;-1;-1;-1;-1;;Finland
+2253;4135;impassable;-1;-1;-1;-1;-1;;Finland
+4103;4135;impassable;-1;-1;-1;-1;-1;;Finland
+7;4135;impassable;-1;-1;-1;-1;-1;;Finland
+7;4075;impassable;-1;-1;-1;-1;-1;;Finland
+7;76;impassable;-1;-1;-1;-1;-1;;Finland
+2340;76;impassable;-1;-1;-1;-1;-1;;Finland
+4158;76;impassable;-1;-1;-1;-1;-1;;Finland
+4158;2188;impassable;-1;-1;-1;-1;-1;;Finland
+6646;2188;impassable;-1;-1;-1;-1;-1;;Finland
+4119;2188;impassable;-1;-1;-1;-1;-1;;Finland
+4119;5949;impassable;-1;-1;-1;-1;-1;;Finland
+4119;40;impassable;-1;-1;-1;-1;-1;;Finland
+4119;5837;impassable;-1;-1;-1;-1;-1;;Finland
+5908;5837;impassable;-1;-1;-1;-1;-1;;Finland
+5908;4052;impassable;-1;-1;-1;-1;-1;;Finland
+910;6546;impassable;-1;-1;-1;-1;-1;;papua
+6546;5026;impassable;-1;-1;-1;-1;-1;;papua
+5026;4835;impassable;-1;-1;-1;-1;-1;;papua
+4835;5025;impassable;-1;-1;-1;-1;-1;;papua
+5025;6442;impassable;-1;-1;-1;-1;-1;;papua
+745;7080;impassable;-1;-1;-1;-1;-1;;Soviet Border
+65;4185;sea;4185;2885;1578;2890;1581;;Afsluitdijk
+-1;-1;;-1;-1;-1;-1;-1;-1

@@ -1,0 +1,32 @@
+state={
+ id=583
+ name="STATE_664"
+ manpower = 854400
+ resources={
+ steel=13
+ chromium = 3
+ }
+ state_category = town
+ history={
+ owner = GER
+ buildings = {
+ infrastructure = 6
+ industrial_complex = 3
+ }
+ victory_points = {
+ 4467 1
+ }
+ add_core_of = GER
+ add_claim_by = GER
+ 1939.3.14 = {
+ owner = GER
+ controller = HUN
+ remove_claim_by = HUN
+ add_core_of = GER
+ }
+ }
+ provinces={
+ 2663 2765 4457 4467 6193 7036
+ }
+ }
+

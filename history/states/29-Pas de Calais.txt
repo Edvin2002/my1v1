@@ -1,0 +1,28 @@
+state={
+ id=29
+ name="STATE_29"
+ manpower = 2976400
+ state_category = large_city
+ resources={
+ steel=42
+ aluminium=8
+ }
+ history={
+ 
+ victory_points = {
+ 522 5
+ }
+ victory_points = {
+ 522 10
+ }
+ victory_points = {
+ 522 15
+ }
+ buildings = {
+}
+ }
+ provinces={
+ 522
+ }
+ }
+

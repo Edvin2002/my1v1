@@ -1,0 +1,19 @@
+state={
+ id=453
+ name="STATE_526"
+ manpower = 578000
+ state_category = small_island
+ resources={
+ oil = 10
+ }
+ history={
+ 
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 879
+ }
+ }
+

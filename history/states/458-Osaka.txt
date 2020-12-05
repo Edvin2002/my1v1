@@ -1,0 +1,19 @@
+state={
+ id=458
+ name="STATE_531"
+ manpower = 11015000
+ state_category = metropolis
+ resources={
+ aluminium=23
+ }
+ history={
+ 
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 851
+ }
+ }
+

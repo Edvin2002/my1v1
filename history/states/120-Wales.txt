@@ -1,0 +1,22 @@
+state= {
+ id=120
+ name="STATE_122"
+ manpower = 2309230
+ state_category = city
+ resources={
+ steel=13
+ aluminium=5
+ }
+ history=
+ {
+ 
+ victory_points = {225 5 }
+ buildings = {
+}
+ 
+ }
+ provinces=
+ {
+ 225}
+ }
+

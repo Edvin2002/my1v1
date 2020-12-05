@@ -1,0 +1,23 @@
+state={
+ id=274
+ name="STATE_286"
+ resources={
+ rubber=55
+ }
+ history={
+ 
+ 
+ victory_points = {
+ 963 3
+ }
+ buildings = {
+}
+ }
+ provinces={
+ 963
+ }
+ manpower=5245000
+ buildings_max_level_factor=1.000
+ state_category=town
+ }
+

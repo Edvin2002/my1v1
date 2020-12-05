@@ -1,0 +1,39 @@
+state={
+ id=44
+ name="STATE_44"
+ manpower = 1003000
+ resources={
+ aluminium=2
+ chromium=2
+ }
+ state_category = town
+ history={
+ owner = GER
+ victory_points = {
+ 6341 5
+ }
+ victory_points = {
+ 7067 1
+ }
+ buildings = {
+ infrastructure = 3
+ arms_factory = 1
+ industrial_complex = 2
+ air_base = 3
+ 7067 = {
+ naval_base = 4
+ }
+ }
+ add_core_of = GER
+ add_claim_by = GER
+ 1939.4.12 = {
+ owner = GER
+ controller = ITA
+ remove_claim_by = ITA
+ }
+ }
+ provinces={
+ 773 2568 2831 2833 4643 6326 6334 6341 7065 7067
+ }
+ }
+

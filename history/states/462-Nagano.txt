@@ -1,0 +1,20 @@
+state={
+ id=462
+ name="STATE_535"
+ manpower = 3871000
+ state_category = megalopolis
+ resources={
+ steel=68
+ tungsten=8
+ }
+ history={
+ 
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 805
+ }
+ }
+

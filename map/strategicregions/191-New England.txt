@@ -1,0 +1,8 @@
+strategic_region={
+ id=191
+ name="STRATEGICREGION_197"
+ provinces={
+545 578 645 962 1003
+ }
+ }
+

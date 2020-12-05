@@ -1,0 +1,31 @@
+state={
+ id=9
+ name="STATE_9"
+ manpower = 4492600
+ resources={
+ steel=5
+ }
+ state_category = large_city
+ history={
+ owner = GER
+ victory_points = {6953 30 }
+ victory_points = {4333 5 }
+ victory_points = {6221 5 }
+ buildings = {
+ infrastructure = 7
+ arms_factory = 3
+ industrial_complex = 2
+ anti_air_building = 5
+ air_base = 5
+ }
+ add_core_of = GER
+ 1939.3.14 = {
+ owner = GER
+ controller = GER
+ }
+ }
+ provinces={
+ 397 446 530 2581 4333 4355 4485 6094 6100 6108 6197 6221 6953 6965
+ }
+ }
+

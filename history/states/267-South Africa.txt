@@ -1,0 +1,22 @@
+state={
+ id=267
+ name="STATE_275"
+ manpower = 3680363
+ state_category = city
+ resources={
+ steel=15
+ aluminium=5
+ chromium=45
+ tungsten=35
+ }
+ history={
+ 
+ buildings = {
+}
+ 
+ }
+ provinces={
+ 1175
+ }
+ }
+

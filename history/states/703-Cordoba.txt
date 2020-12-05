@@ -1,0 +1,20 @@
+state={
+ id=703
+ name="STATE_789"
+ history={
+ 
+ victory_points = {
+ 759 3
+ }
+ buildings = {
+}
+ 
+ }
+ provinces={
+ 759
+ }
+ manpower=1428513
+ buildings_max_level_factor=1.000
+ state_category=town
+ }
+

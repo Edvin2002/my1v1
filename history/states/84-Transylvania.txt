@@ -1,0 +1,24 @@
+state={
+ id=84
+ name="STATE_84"
+ manpower = 1622300
+ resources={
+ steel=15
+ }
+ state_category = large_city
+ history={
+ owner = GER
+ buildings = {
+ infrastructure = 4
+ industrial_complex = 4
+ }
+ victory_points = {
+ 625 1
+ }
+ add_core_of = GER
+ }
+ provinces={
+ 615 625 628 2732 2740 2752 4544 4565 6250 7000 7012
+ }
+ }
+

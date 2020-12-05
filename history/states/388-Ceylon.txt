@@ -1,0 +1,23 @@
+state=
+ {
+ id=388
+ name="STATE_422"
+ manpower = 5500000
+ state_category = rural
+ resources={
+ rubber=60
+ }
+ history={
+ 
+ 
+ victory_points = {
+ 901 3
+ }
+ buildings = {
+}
+ }
+ provinces={
+ 901
+ }
+ }
+

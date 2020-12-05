@@ -1,0 +1,24 @@
+state={
+ id=183
+ name="STATE_190"
+ manpower = 379500
+ state_category = rural
+ history={
+ victory_points = {
+5975 3
+ }
+ owner = SOV
+ buildings = {
+ infrastructure = 5
+ 5975 = {
+ naval_base = 1
+ }
+ dockyard = 1
+ }
+ add_core_of = SOV
+ }
+ provinces={
+237 2348 2439 2458 2631 4168 4256 4273 5975 6716
+ }
+ }
+

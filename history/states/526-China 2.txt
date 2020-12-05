@@ -1,0 +1,20 @@
+state={
+ id=526
+ name="STATE_602"
+ resources={
+ tungsten=6.000
+ }
+ history={
+ 
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 1052
+ }
+ manpower=20293700
+ buildings_max_level_factor=1.000
+ state_category=town
+ }
+

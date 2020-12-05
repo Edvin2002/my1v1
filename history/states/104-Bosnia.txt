@@ -1,0 +1,27 @@
+state={
+ id=104
+ name="STATE_104"
+ manpower =2457400
+ state_category = town
+ resources={
+ }
+ history={
+ owner = GER
+ victory_points = {
+ 7082 5
+ }
+ victory_points = {
+ 4656 3
+ }
+ buildings = {
+ infrastructure = 5
+ industrial_complex = 2
+ air_base = 2
+ }
+ add_core_of = GER
+ }
+ provinces={
+ 553 786 793 2850 4500 4504 4609 4648 4651 4656 6231 6232 6234 6337 6343 6973 6974 7060 7074 7079 7082
+ }
+ }
+

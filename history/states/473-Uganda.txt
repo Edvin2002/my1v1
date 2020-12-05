@@ -1,0 +1,20 @@
+state={
+ id=473
+ name="STATE_548"
+ state_category = rural
+ resources={
+ rubber=0
+ }
+ history={
+ 
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 2827
+ }
+ manpower=3515625
+ buildings_max_level_factor=1.000
+ }
+

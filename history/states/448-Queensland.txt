@@ -1,0 +1,19 @@
+state={
+ id=448
+ name="STATE_521"
+ manpower = 916800
+ state_category = town
+ resources={
+ tungsten=24
+ }
+ history={
+ 
+ buildings = {
+}
+ 
+ }
+ provinces={
+ 1071
+ }
+ }
+

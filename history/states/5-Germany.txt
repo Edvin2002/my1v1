@@ -1,0 +1,22 @@
+state={
+ id=5
+ name="STATE_5"
+ manpower = 1238108
+ state_category = town
+ history={
+ victory_points = {
+4300 3
+ }
+ owner = GER
+ controller = GER
+ buildings = {
+ infrastructure = 6
+ industrial_complex = 4
+ }
+ add_core_of = GER
+ }
+ provinces={
+238 2485 2508 4300 4320 6025 6041 6062 6082 6715 6822
+ }
+ }
+

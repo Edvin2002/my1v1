@@ -1,0 +1,18 @@
+state={
+ id=400
+ name="STATE_434"
+ manpower = 200000
+ state_category = wasteland
+ resources={
+ }
+ history={
+ 
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 875
+ }
+ }
+

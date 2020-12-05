@@ -1,0 +1,31 @@
+state={
+ id=212
+ name="STATE_219"
+ manpower = 8335992
+ state_category = megalopolis
+ resources={
+ steel=16
+ }
+ history={
+ owner = SOV
+ victory_points = {
+4304 100
+ }
+ buildings = {
+ infrastructure = 8
+ industrial_complex = 4
+ air_base = 20
+ }
+ add_core_of = SOV
+ 1939.1.1 = {
+ buildings = {
+ industrial_complex = 4
+ arms_factory = 10
+ }
+ }
+ }
+ provinces={
+268 312 326 354 2407 2433 2465 2491 2518 4226 4231 4278 4304 4329 5953 5992 6008 6043 6067 6080 6692 6708 6731 6742 6778 7366 7367 7368 7369
+ }
+ }
+

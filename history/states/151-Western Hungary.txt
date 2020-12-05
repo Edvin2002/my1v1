@@ -1,0 +1,26 @@
+state={
+ id=151
+ name="STATE_155"
+ manpower = 2197605
+ state_category = city
+ resources={
+ oil = 0
+ }
+ history={
+ owner = GER
+ victory_points = {
+ 6993 5
+ }
+ buildings = {
+ infrastructure = 6
+ industrial_complex = 2
+ arms_factory = 1
+ air_base = 3
+ }
+ add_core_of = GER
+ }
+ provinces={
+ 618 622 634 2735 2742 2744 4548 4561 4572 6252 6263 6283 6993 7004 7027 7335
+ }
+ }
+

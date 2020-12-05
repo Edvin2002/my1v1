@@ -1,0 +1,21 @@
+state={
+ id=572
+ name="STATE_652"
+ resources={
+ steel=20.000
+ }
+ history={
+ owner = SOV
+ buildings = {
+ infrastructure = 4
+ }
+ add_core_of = SOV
+ }
+ provinces={
+200 898 939 1000 1016 2412 2467 2490 2513 2601 2661 2940 2942 4303 4339 4422 4755 6099 6121 6412 6864 7096 7143 7153 7161
+ }
+ manpower=1225870
+ buildings_max_level_factor=1.000
+ state_category=city
+ }
+

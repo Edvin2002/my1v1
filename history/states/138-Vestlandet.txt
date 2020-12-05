@@ -1,0 +1,21 @@
+state={
+ id=138
+ name="STATE_142"
+ resources={
+ chromium=1.000
+ aluminium=15.000
+ }
+ history={
+ 
+ buildings = {
+}
+ 
+ }
+ provinces={
+ 52 62 97 113 126 166 175 2233 2270 2275 2286 2299 2338 2343 2346 4114 4136 5849 5875 5923 5940 6004 6607 6608 6663 6678 6809
+ }
+ manpower=880945
+ buildings_max_level_factor=1.000
+ state_category=town
+ }
+

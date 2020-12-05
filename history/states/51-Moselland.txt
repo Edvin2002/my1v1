@@ -1,0 +1,40 @@
+state={
+ id=51
+ name="STATE_51"
+ manpower = 6144743
+ resources={
+ steel=30
+ chromium=20
+ }
+ state_category = metropolis
+ history={
+ owner = GER
+ victory_points = {
+4382 10
+ }
+ victory_points = {
+534 5
+ }
+ buildings = {
+ infrastructure = 8
+ arms_factory = 3
+ industrial_complex = 2
+ air_base = 3
+ }
+ add_core_of = GER
+ 1939.1.1 = {
+ buildings = {
+ air_base = 6
+ radar_station = 1
+ }
+ }
+ set_demilitarized_zone = yes
+ 1936.3.7 = {
+ set_demilitarized_zone = no
+ }
+ }
+ provinces={
+479 534 2565 2621 2648 4382 4465 6152 6182
+ }
+ }
+

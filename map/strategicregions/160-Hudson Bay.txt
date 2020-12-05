@@ -1,0 +1,8 @@
+strategic_region={
+ id=160
+ name="STRATEGICREGION_166"
+ provinces={
+48 227 403 1079 5512 5535 5582 5608 5634 5658 5680 5766 5836 5847
+ }
+ }
+

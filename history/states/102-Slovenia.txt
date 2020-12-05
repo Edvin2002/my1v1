@@ -1,0 +1,22 @@
+state=
+ {
+ id=102
+ name="STATE_102"
+ manpower = 1144300
+ state_category = large_town
+ history =
+ {
+ owner = GER
+ buildings = {
+ infrastructure = 6
+ arms_factory = 4
+ }
+ victory_points = {
+ 6254 3
+ }
+ add_core_of = GER
+ }
+ provinces={
+ 543 606 2713 2728 4525 4539 6238 6254}
+ }
+

@@ -1,0 +1,18 @@
+state={
+ id=249
+ name="STATE_256"
+ manpower = 1572061
+ state_category = town
+ history={
+ owner = SOV
+ buildings = {
+ infrastructure = 5
+ industrial_complex = 2
+ }
+ add_core_of = SOV
+ }
+ provinces={
+253 289 2427 2454 2493 4197 4246 4249 4285 4297 4321 5960 5972 5981 5990 6010 6012 6063 6069 6077 6086 6722 6728 6746 6799 6823
+ }
+ }
+

@@ -1,0 +1,25 @@
+state={
+ id=508
+ name="STATE_584"
+ resources={
+ oil=40
+ }
+ history={
+ owner = SOV
+ victory_points = {
+7170 1
+ }
+ buildings = {
+ infrastructure = 2
+ industrial_complex = 1
+ }
+ add_core_of = SOV
+ }
+ provinces={
+679 1087 1129 1143 1147 3002 3023 3027 3036 3191 3201 4800 4811 4833 4834 4840 4843 4969 4996 6242 6428 6429 6435 6438 6449 6457 6544 7170 7174 7200
+ }
+ manpower=1064523
+ buildings_max_level_factor=1.000
+ state_category=pastoral
+ }
+

@@ -1,0 +1,24 @@
+state={
+ id=14
+ name="STATE_14"
+ manpower = 2396600
+ state_category = city
+ history={
+ 
+ victory_points = {
+ 491 20
+ }
+ victory_points = {
+ 491 5
+ }
+ victory_points = {
+ 491 1
+ }
+ buildings = {
+}
+ }
+ provinces={
+ 491
+ }
+ }
+

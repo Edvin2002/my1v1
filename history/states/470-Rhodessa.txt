@@ -1,0 +1,17 @@
+state={
+ id=470
+ state_category = pastoral
+ name="STATE_545"
+ history={
+ 
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 1274
+ }
+ manpower=1171336
+ buildings_max_level_factor=1.000
+ }
+

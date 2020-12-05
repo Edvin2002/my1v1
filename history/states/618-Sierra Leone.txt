@@ -1,0 +1,20 @@
+state={
+ id=618
+ name="STATE_700"
+ manpower = 1768500
+ state_category = pastoral
+ history=
+ {
+ 
+ 
+ victory_points = {
+ 1360 1
+ }
+ buildings = {
+}
+ }
+ provinces={
+ 1360
+ }
+ }
+

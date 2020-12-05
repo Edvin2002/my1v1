@@ -1,0 +1,23 @@
+state={
+ id=19
+ name="STATE_19"
+ manpower = 1340400
+ resources={
+ steel=25
+ aluminium=11
+ }
+ state_category = city
+ history={
+ 
+ victory_points = {
+ 669 20
+ }
+ buildings = {
+}
+ 
+ }
+ provinces={
+ 669
+ }
+ }
+

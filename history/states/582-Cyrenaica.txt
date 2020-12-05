@@ -1,0 +1,20 @@
+state={
+ id=582
+ name="STATE_663"
+ history={
+ 
+ victory_points = {
+ 360 20
+ }
+ buildings = {
+}
+ 
+ }
+ provinces={
+ 360
+ }
+ manpower = 54028
+ buildings_max_level_factor=1.000
+ state_category=wasteland
+ }
+

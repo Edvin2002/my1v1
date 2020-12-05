@@ -1,0 +1,20 @@
+state={
+ id=662
+ name="STATE_744"
+ provinces={
+ 1342
+ }
+ history={
+ 
+ 
+ victory_points = {
+ 1342 1
+ }
+ buildings = {
+}
+ }
+ manpower=9000000
+ buildings_max_level_factor=1.000
+ state_category = town
+ }
+

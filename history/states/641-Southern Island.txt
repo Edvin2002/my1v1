@@ -1,0 +1,19 @@
+state={
+ id=641
+ name="STATE_723"
+ manpower = 547198
+ resources={
+ tungsten=4
+ }
+ state_category = rural
+ history={
+ 
+ buildings = {
+}
+ 
+ }
+ provinces={
+ 1424
+ }
+ }
+

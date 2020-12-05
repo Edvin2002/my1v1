@@ -1,0 +1,8 @@
+strategic_region={
+ id=159
+ name="STRATEGICREGION_165"
+ provinces={
+801 816 823 828 847 862 873 1052 1073 1352 2872 2881 4688 7085
+ }
+ }
+

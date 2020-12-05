@@ -1,0 +1,20 @@
+state={
+ id=354
+ name="STATE_387"
+ manpower = 445031
+ state_category = rural
+ resources={
+ steel=18
+ chromium=200
+ tungsten=18
+ }
+ history={
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 1237
+ }
+ }
+

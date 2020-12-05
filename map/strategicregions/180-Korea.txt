@@ -1,0 +1,8 @@
+strategic_region={
+ id=180
+ name="STRATEGICREGION_186"
+ provinces={
+745 853
+ }
+ }
+

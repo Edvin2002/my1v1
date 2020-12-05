@@ -1,0 +1,24 @@
+state={
+ id=685
+ name="STATE_771"
+ state_category = rural
+ resources={
+ chromium=35
+ tungsten=8
+ }
+ history={
+ 
+ 
+ victory_points = {
+ 631 1
+ }
+ buildings = {
+}
+ }
+ provinces={
+ 631
+ }
+ manpower=1380089
+ buildings_max_level_factor=1.000
+ }
+

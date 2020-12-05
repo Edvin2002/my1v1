@@ -1,0 +1,21 @@
+state=
+ {
+ id=569
+ name="STATE_648"
+ state_category = tiny_island
+ manpower=42
+ resources={
+ oil = 10
+ }
+ history=
+ {
+ 
+ 
+ buildings = {
+}
+ }
+ provinces=
+ {
+ 7304}
+ }
+

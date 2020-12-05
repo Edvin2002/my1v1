@@ -1,0 +1,8 @@
+strategic_region={
+ id=194
+ name="STRATEGICREGION_200"
+ provinces={
+942 1280 1306 1364 2973 3173
+ }
+ }
+

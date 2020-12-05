@@ -1,0 +1,19 @@
+state={
+ id=637
+ name="STATE_719"
+ manpower = 3962157
+ resources={
+ chromium=60
+ }
+ state_category = city
+ history={
+ 
+ buildings = {
+}
+ 
+ }
+ provinces={
+ 1068
+ }
+ }
+

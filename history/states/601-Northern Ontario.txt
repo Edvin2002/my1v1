@@ -1,0 +1,21 @@
+state={
+ id=601
+ name="STATE_682"
+ state_category = rural
+ resources={
+ steel=8
+ aluminium=9
+ }
+ history={
+ 
+ buildings = {
+}
+ 
+ }
+ provinces={
+ 549
+ }
+ manpower=149059
+ buildings_max_level_factor=1.000
+ }
+

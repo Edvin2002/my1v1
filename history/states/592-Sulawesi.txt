@@ -1,0 +1,25 @@
+state={
+ id=592
+ name="STATE_673"
+ manpower = 4232000
+ resources={
+ rubber=30
+ }
+ state_category = town
+ history= {
+ 
+ 
+ victory_points = {
+ 6398 5
+ }
+ victory_points = {
+ 6359 5
+ }
+ buildings = {
+}
+ }
+ provinces={
+ 868 966 1081 1094 1100 1119 1127 2914 2933 2934 2948 3010 3020 3028 4739 4752 4838 6359 6363 6376 6387 6398 6443 6445 7169 7173 7190
+ }
+ }
+

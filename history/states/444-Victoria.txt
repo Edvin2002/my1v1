@@ -1,0 +1,20 @@
+state={
+ id=444
+ name="STATE_517"
+ manpower = 2219500
+ state_category = large_city
+ resources={
+ steel=8
+ chromium=4
+ }
+ history={
+ 
+ buildings = {
+}
+ 
+ }
+ provinces={
+ 1223
+ }
+ }
+

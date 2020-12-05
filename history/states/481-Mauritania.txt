@@ -1,0 +1,19 @@
+state={
+ id=481
+ name="STATE_557"
+ manpower = 225000
+ state_category = french_colony
+ history={
+ 
+ 
+ victory_points = {
+ 3205 1
+ }
+ buildings = {
+}
+ }
+ provinces={
+ 3205
+ }
+ }
+

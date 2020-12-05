@@ -1,0 +1,22 @@
+state={
+ id=425
+ name="STATE_461"
+ resources={
+ chromium=12.000
+ }
+ manpower = 3197719
+ state_category = rural
+ history={
+ 
+ 
+ victory_points = {
+ 796 10
+ }
+ buildings = {
+}
+ }
+ provinces={
+ 796
+ }
+ }
+

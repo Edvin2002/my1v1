@@ -1,0 +1,28 @@
+state={
+ id=223
+ name="STATE_230"
+ history={
+ owner = SOV
+ victory_points = {
+7166 1
+ }
+ buildings = {
+ infrastructure = 3
+ industrial_complex = 2
+ air_base = 2
+ }
+ add_core_of = SOV
+ 1939.1.1 = {
+ buildings = {
+ industrial_complex = 3
+ }
+ }
+ }
+ provinces={
+2662 3053 4519 4659 7053 7166 7177 7189 7191 7334
+ }
+ manpower=1250082
+ buildings_max_level_factor=1.000
+ state_category=town
+ }
+

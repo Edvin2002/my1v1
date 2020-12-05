@@ -1,0 +1,22 @@
+state={
+ id=170
+ name="STATE_174"
+ manpower = 1566041
+ resources={
+ tungsten=10.000
+ }
+ state_category = large_town
+ history={
+ 
+ victory_points = {
+ 654 1
+ }
+ buildings = {
+}
+ 
+ }
+ provinces={
+ 654
+ }
+ }
+

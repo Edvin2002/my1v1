@@ -1,0 +1,18 @@
+state={
+ id=127
+ name="STATE_129"
+ manpower = 2212021
+ state_category = city
+ resources={
+ steel=11
+ }
+ history={
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 324
+ }
+ }
+

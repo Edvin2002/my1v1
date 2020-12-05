@@ -1,0 +1,20 @@
+state={
+ id=360
+ name="STATE_393"
+ resources={
+ steel=60
+ oil=6
+ }
+ state_category = metropolis
+ history={
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 626
+ }
+ manpower=4842323
+ buildings_max_level_factor=1.000
+ }
+

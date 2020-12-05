@@ -1,0 +1,33 @@
+on_actions = {
+	on_startup = {
+	effect = {
+	set_variable={GER.min_fuel = 40}
+	set_variable={SOV.min_fuel = 120}
+	set_variable={HOL.min_fuel = -0.8}
+	SOV = {set_country_flag = transfer_enabled
+	every_owned_state= {
+	add_core_of = GER
+	}
+	}
+	GER = {set_country_flag = transfer_enabled
+	every_owned_state= {
+	add_core_of = SOV
+	}
+	}
+	GER = {add_dynamic_modifier = { modifier = Barb_Modifiers scope=GER }}
+	SOV = {add_dynamic_modifier = { modifier = Barb_Modifiers scope=SOV }}
+	add_to_array = { GLOBAL.faction_members_array = GER.id }#tanks
+	add_to_array = { GLOBAL.faction_members_array = SOV.id }#inf
+	add_to_array = { GLOBAL.faction_members_array = SWE.id }#tank div attack
+	add_to_array = { GLOBAL.faction_members_array = DEN.id }#inf div attack
+	add_to_array = { GLOBAL.faction_members_array = BUL.id }#tank div defense
+	add_to_array = { GLOBAL.faction_members_array = GRE.id }#inf div defense
+	add_to_array = { GLOBAL.faction_members_array = PER.id }#tank div speed
+	add_to_array = { GLOBAL.faction_members_array = LUX.id }#inf div speed
+	add_to_array = { GLOBAL.faction_members_array = HOL.id }#supply
+	add_to_array = { GLOBAL.faction_members_array = ITA.id }#planning
+	add_to_array = { GLOBAL.faction_members_array = BEL.id }#terrain penalty
+	add_to_array = { GLOBAL.faction_members_array = FRA.id }#night
+	}
+}
+}

@@ -1,0 +1,27 @@
+state=
+ {
+ id=74
+ name="STATE_74"
+ manpower = 820000
+ state_category = rural
+ history=
+ {
+ victory_points = {
+ 2679 5
+ }
+ owner = GER
+ buildings = {
+ infrastructure = 7
+ arms_factory = 1
+ }
+ add_core_of = GER
+ 1938.9.30 = {
+ owner = GER
+ controller = GER
+ }
+ }
+ provinces= {
+ 373 2538 2679 4397
+ }
+ }
+

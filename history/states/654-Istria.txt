@@ -1,0 +1,21 @@
+state={
+ id=654
+ name="STATE_736"
+ state_category = city
+ history={
+ victory_points = {
+ 546 1
+ }
+ 
+ 
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 546
+ }
+ manpower=1063159
+ buildings_max_level_factor=1.000
+ }
+

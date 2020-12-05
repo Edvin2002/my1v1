@@ -1,0 +1,23 @@
+state={
+ id=39
+ name="STATE_39"
+ manpower = 641650
+ state_category = town
+ resources={
+ aluminium=30
+ tungsten=50
+ }
+ history={
+ victory_points = {
+ 599 1
+ }
+ 
+ buildings = {
+}
+ 
+ }
+ provinces={
+ 599
+ }
+ }
+

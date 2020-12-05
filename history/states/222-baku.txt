@@ -1,0 +1,26 @@
+state={
+ id=222
+ name="STATE_229"
+ resources={
+ oil=70
+ }
+ history={
+ owner = SOV
+ victory_points = {
+4851 10
+ }
+ buildings = {
+ infrastructure = 4
+ fuel_silo = 1
+ air_base = 1
+ }
+ add_core_of = SOV
+ }
+ provinces={
+1067 1107 1109 1134 2987 2997 3000 3022 3039 4597 4814 4851 6307 7016 7033 7050 7188
+ }
+ manpower=2881049
+ buildings_max_level_factor=1.000
+ state_category=large_town
+ }
+

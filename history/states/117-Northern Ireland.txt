@@ -1,0 +1,22 @@
+state={
+ id=117
+ name="STATE_119"
+ history={
+ 
+ victory_points = {
+ 247 5
+ }
+ buildings = {
+}
+ 
+ }
+ provinces={
+ 247
+ }
+ manpower=1198537
+ buildings_max_level_factor=1
+ state_category="city"
+ resources={
+ }
+ }
+

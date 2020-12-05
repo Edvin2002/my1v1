@@ -1,0 +1,16 @@
+state={
+ id=611
+ name="STATE_693"
+ manpower = 15000
+ state_category = tiny_island
+ history={
+ 
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 1098
+ }
+ }
+

@@ -1,0 +1,22 @@
+state={
+ id=163
+ name="STATE_167"
+ manpower = 1979294
+ state_category = large_town
+ history={
+ 
+ victory_points = {
+ 788 5
+ }
+ victory_points = {
+ 788 1
+ }
+ buildings = {
+}
+ 
+ }
+ provinces={
+ 788
+ }
+ }
+

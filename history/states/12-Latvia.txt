@@ -1,0 +1,35 @@
+state={
+ id=12
+ name="STATE_12"
+ manpower = 1520500
+ resources={
+ steel=1
+ }
+ state_category = city
+ history={
+ owner = SOV
+ victory_points = {
+6035 10
+ }
+ victory_points = {
+276 1
+ }
+ buildings = {
+ infrastructure = 5
+ arms_factory = 4
+ industrial_complex = 4
+ air_base = 5
+ 6035 = {
+ naval_base = 3
+ }
+ 276 = {
+ bunker = 2
+ }
+ }
+ add_core_of = SOV
+ }
+ provinces={
+195 276 284 303 2403 2441 2515 4372 4803 5956 5986 6017 6035 6165 6421 6452 6695 6757 6801
+ }
+ }
+

@@ -1,0 +1,29 @@
+state={
+ id=242
+ name="STATE_249"
+ manpower = 2761291
+ state_category = town
+ resources={
+ steel=25
+ }
+ history={
+ owner = SOV
+ buildings = {
+ infrastructure = 6
+ industrial_complex = 1
+ }
+ victory_points = {
+4269 90
+ }
+ add_core_of = SOV
+ 1939.1.1 = {
+ buildings = {
+ arms_factory = 2
+ }
+ }
+ }
+ provinces={
+201 232 262 316 331 356 357 2365 2399 2466 2482 2497 4247 4257 4269 4280 4293 6031 6048 6072 6085 6174 6413 6713 6750 6784 6825 6916
+ }
+ }
+

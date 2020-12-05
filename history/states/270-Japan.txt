@@ -1,0 +1,19 @@
+state={
+ id=270
+ name="STATE_282"
+ manpower = 13773000
+ state_category = megalopolis
+ resources={
+ aluminium=60
+ }
+ history={
+ 
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 800
+ }
+ }
+

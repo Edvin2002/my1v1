@@ -1,0 +1,20 @@
+state={
+ id=373
+ name="STATE_406"
+ manpower = 146494
+ state_category = wasteland
+ history={
+ owner = SOV
+ buildings = {
+ infrastructure = 1
+ }
+ add_core_of = SOV
+ victory_points = {
+2703 1
+ }
+ }
+ provinces={
+416 429 502 562 2578 2703 2706 4408 4421 4429 4501 4745 6128 6142 6872 6883 6894 6977 6984
+ }
+ }
+

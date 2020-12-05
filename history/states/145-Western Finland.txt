@@ -1,0 +1,22 @@
+state={
+ id=145
+ name="STATE_149"
+ manpower = 811029
+ state_category = town
+ history={
+ victory_points = {
+2294 3
+ }
+ buildings = {
+ infrastructure = 4
+ industrial_complex = 2
+ 2294 = {
+ naval_base = 1
+ }
+ }
+ }
+ provinces={
+60 63 78 111 121 141 172 2291 2294 2333 4009 4062 4107 4110 4152 4159 5802 5892 5901 5942 6556 6563 6578 6590 6620 6623 6628 6639 7329
+ }
+ }
+

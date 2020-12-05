@@ -1,0 +1,23 @@
+state={
+ id=110
+ name="STATE_110"
+ resources={
+ aluminium=20.000
+ }
+ history={
+ victory_points = {
+ 4091 15
+ }
+ 
+ buildings = {
+}
+ 
+ }
+ provinces={
+ 10 14 27 96 105 122 133 159 2195 2208 2274 2282 2306 2332 4030 4054 4061 4091 4118 4125 4143 5800 5855 5893 5907 5931 6551 6552 6587 6616 6631 6643 6670 6685
+ }
+ manpower=1410219
+ buildings_max_level_factor=1.000
+ state_category=city
+ }
+

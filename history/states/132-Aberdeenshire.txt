@@ -1,0 +1,20 @@
+state={
+ id=132
+ name="STATE_136"
+ manpower = 745466
+ state_category = town
+ resources={
+ tungsten=4
+ aluminium=3
+ }
+ history={
+ 
+ buildings = {
+}
+ 
+ }
+ provinces={
+ 176
+ }
+ }
+

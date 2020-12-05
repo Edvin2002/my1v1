@@ -1,0 +1,22 @@
+state={
+ id=264
+ name="STATE_272"
+ manpower = 1638000
+ resources={
+ steel=3
+ }
+ state_category = french_colony
+ history={
+ 
+ 
+ victory_points = {
+ 1373 5
+ }
+ buildings = {
+}
+ }
+ provinces={
+ 1373
+ }
+ }
+

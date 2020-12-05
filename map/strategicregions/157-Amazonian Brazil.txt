@@ -1,0 +1,10 @@
+strategic_region={
+ id=157
+ name="STRATEGICREGION_163"
+ provinces={
+1314 3185 3197
+ }
+ weather={
+ }
+ }
+

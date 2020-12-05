@@ -1,0 +1,19 @@
+state={
+ id=439
+ name="STATE_489"
+ manpower = 1
+ state_category = town
+ resources={
+ }
+ history={
+ 
+ 
+ victory_points = {
+ 1324 1
+ }
+ }
+ provinces={
+ 1324
+ }
+ }
+

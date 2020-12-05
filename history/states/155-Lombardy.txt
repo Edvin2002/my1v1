@@ -1,0 +1,22 @@
+state={
+ id=155
+ name="STATE_159"
+ manpower = 5597704
+ state_category = metropolis
+ resources={
+ steel=35
+ tungsten = 20
+ }
+ history={
+ 
+ victory_points = {
+ 554 25
+ }
+ buildings = {
+}
+ }
+ provinces={
+ 554
+ }
+ }
+

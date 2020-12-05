@@ -1,0 +1,21 @@
+state=
+ {
+ id=143
+ name="STATE_147"
+ manpower = 4630
+ state_category = enclave
+ history = {
+ owner = SOV
+ add_core_of = SOV
+ buildings = {
+ infrastructure = 3
+ }
+ victory_points = {
+174 1
+ }
+ }
+ provinces={
+174 5894 6593
+ }
+ }
+

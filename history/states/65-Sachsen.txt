@@ -1,0 +1,35 @@
+state={
+ id=65
+ name="STATE_65"
+ manpower = 5592576
+ resources={
+ steel=53
+ }
+ state_category = metropolis
+ history={
+ owner = GER
+ buildings = {
+ infrastructure = 7
+ arms_factory = 2
+ industrial_complex = 7
+ }
+ victory_points = {
+466 5
+ }
+ victory_points = {
+2638 5
+ }
+ add_core_of = GER
+ 1939.1.1 = {
+ buildings = {
+ synthetic_refinery = 2
+ arms_factory = 5
+ industrial_complex = 10
+ }
+ }
+ }
+ provinces={
+466 520 2622 2638 4356 4456 6118 6144 6192 6905 6956
+ }
+ }
+

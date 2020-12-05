@@ -1,0 +1,23 @@
+state={
+ id=590
+ name="STATE_671"
+ manpower = 11528000
+ state_category = town
+ resources={
+ chromium=6
+ tungsten=27
+ }
+ history={
+ 
+ 
+ victory_points = {
+ 861 1
+ }
+ buildings = {
+}
+ }
+ provinces={
+ 861
+ }
+ }
+

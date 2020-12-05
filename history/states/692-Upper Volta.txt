@@ -1,0 +1,19 @@
+state={
+ id=692
+ name="STATE_778"
+ manpower = 3186184
+ state_category = french_colony
+ history={
+ 
+ 
+ victory_points = {
+ 1353 1
+ }
+ buildings = {
+}
+ }
+ provinces={
+ 1353
+ }
+ }
+

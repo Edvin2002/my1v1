@@ -1,0 +1,21 @@
+state={
+ id=208
+ name="STATE_215"
+ resources={
+ steel=30
+ }
+ history={
+ owner = SOV
+ buildings = {
+ infrastructure = 3
+ }
+ add_core_of = SOV
+ }
+ provinces={
+36 76 82 90 123 139 140 151 156 2188 2196 2248 2251 2258 2344 4015 4019 4068 4073 4075 4124 4135 5809 5817 5834 5868 5922 5925 6566 6571 6602 6604 6640 6662 6668 6688 7340
+ }
+ manpower=214858
+ state_category = rural
+ buildings_max_level_factor=1.000
+ }
+

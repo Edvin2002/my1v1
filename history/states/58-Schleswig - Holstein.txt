@@ -1,0 +1,38 @@
+state= {
+ id=58
+ name="STATE_58"
+ manpower = 3248150
+ state_category = large_city
+ history=
+ {
+ victory_points = {
+4311 10
+ }
+ victory_points = {
+6042 20
+ }
+ owner = GER
+ buildings = {
+ infrastructure = 6
+ arms_factory = 2
+ dockyard = 6
+ air_base = 5
+ 4311 ={
+ naval_base = 20
+ }
+ }
+ add_core_of = GER
+ 1939.1.1 = {
+ buildings = {
+ synthetic_refinery = 3
+ anti_air_building = 5
+ dockyard = 7
+ arms_factory = 4
+ }
+ }
+ }
+ provinces= {
+282 2380 2500 4201 4311 6020 6042 6779 6808
+ }
+ }
+

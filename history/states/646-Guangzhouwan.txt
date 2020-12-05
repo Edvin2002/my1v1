@@ -1,0 +1,16 @@
+state={
+ id=646
+ name="STATE_728"
+ manpower = 200000
+ state_category = enclave
+ history={
+ 
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 7085
+ }
+ }
+

@@ -1,0 +1,19 @@
+state={
+ id=595
+ name="STATE_676"
+ manpower = 1182741
+ state_category = town
+ resources={
+ oil=14
+ }
+ history={
+ 
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 1132
+ }
+ }
+

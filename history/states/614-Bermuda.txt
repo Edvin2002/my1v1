@@ -1,0 +1,19 @@
+state={
+ id=614
+ name="STATE_696"
+ manpower=37516
+ state_category = small_island
+ history={
+ 
+ 
+ victory_points = {
+ 7295 1
+ }
+ buildings = {
+}
+ }
+ provinces={
+ 7295
+ }
+ }
+

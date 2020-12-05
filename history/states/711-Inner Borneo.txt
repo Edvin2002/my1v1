@@ -1,0 +1,16 @@
+state={
+ id=711
+ name="STATE_798"
+ state_category = wasteland
+ impassable = yes
+ history={
+ 
+ 
+ }
+ provinces={
+ 1361 1382 1415 1429 3238 3239 4735 4782 4788
+ }
+ manpower=3000
+ buildings_max_level_factor=1.000
+ }
+

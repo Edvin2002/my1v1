@@ -1,0 +1,25 @@
+state={
+ id=278
+ name="STATE_291"
+ manpower = 2044165
+ state_category = town
+ resources={
+ oil=15
+ }
+ history={
+ 
+ 
+ victory_points = {
+ 74 5
+ }
+ victory_points = {
+ 74 1
+ }
+ buildings = {
+}
+ }
+ provinces={
+ 74
+ }
+ }
+

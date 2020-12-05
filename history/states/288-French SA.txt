@@ -1,0 +1,16 @@
+state={
+ id=288
+ name="STATE_310"
+ manpower = 47341
+ state_category = french_colony
+ history={
+ 
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 3185
+ }
+ }
+

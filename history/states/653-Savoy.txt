@@ -1,0 +1,27 @@
+state={
+ id=653
+ name="STATE_735"
+ state_category = town
+ resources={
+ steel=35
+ aluminium=35
+ }
+ history={
+ 
+ 
+ victory_points = {
+ 684 1
+ }
+ victory_points = {
+ 684 5
+ }
+ buildings = {
+}
+ }
+ provinces={
+ 684
+ }
+ manpower=907500
+ buildings_max_level_factor=1.000
+ }
+

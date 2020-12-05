@@ -1,0 +1,19 @@
+state= {
+ id=464
+ name="STATE_537"
+ manpower = 295196
+ resources={
+ oil=3
+ }
+ state_category = rural
+ history= {
+ 
+ 
+ buildings = {
+}
+ }
+ provinces=
+ {
+ 985}
+ }
+

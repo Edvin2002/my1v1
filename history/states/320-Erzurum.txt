@@ -1,0 +1,14 @@
+state={
+ id=320
+ name="STATE_353"
+ manpower = 1
+ state_category = rural
+ history={
+ 
+ 
+ }
+ provinces={
+ 596
+ }
+ }
+

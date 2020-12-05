@@ -1,0 +1,19 @@
+state={
+ id=408
+ name="STATE_442"
+ manpower = 4684400
+ state_category = rural
+ history={
+ victory_points = {
+ 1344 3
+ }
+ 
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 1344
+ }
+ }
+

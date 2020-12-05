@@ -1,0 +1,29 @@
+state={
+ id=7
+ name="STATE_7"
+ resources={
+ steel=4.000
+ }
+ history={
+ 
+ 
+ victory_points = {
+ 65 40
+ }
+ victory_points = {
+ 65 10
+ }
+ victory_points = {
+ 65 20
+ }
+ buildings = {
+}
+ }
+ provinces={
+ 65
+ }
+ manpower=4123000
+ buildings_max_level_factor=1.000
+ state_category=metropolis
+ }
+

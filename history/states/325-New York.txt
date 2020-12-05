@@ -1,0 +1,19 @@
+state={
+ id=325
+ name="STATE_358"
+ resources={
+ steel=13
+ }
+ state_category = USA_state
+ history={
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 545
+ }
+ manpower=12588061
+ buildings_max_level_factor=1.000
+ }
+

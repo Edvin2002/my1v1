@@ -1,0 +1,27 @@
+state={
+ id=106
+ name="STATE_106"
+ resources={
+ chromium=60.000
+ }
+ history={
+ owner = GER
+ buildings = {
+ infrastructure = 4
+ industrial_complex = 1
+ air_base = 2
+ }
+ victory_points = {
+ 2830 5
+ }
+ add_core_of = GER
+ add_core_of = GER
+ }
+ provinces={
+ 769 791 2821 2828 2830 4641 7073 7075 7076 7078
+ }
+ manpower=1374200
+ buildings_max_level_factor=1.000
+ state_category=rural
+ }
+

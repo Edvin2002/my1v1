@@ -1,0 +1,20 @@
+state={
+ id=98
+ name="STATE_98"
+ manpower = 1412100
+ state_category = rural
+ history={
+ victory_points = {
+ 2379 5
+ }
+ owner = GER
+ buildings = {
+ infrastructure = 6
+ }
+ add_core_of = GER
+ }
+ provinces={
+ 497 2379 4203 4255 4319 4463 5998 6016 6821
+ }
+ }
+

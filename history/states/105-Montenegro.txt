@@ -1,0 +1,29 @@
+state={
+ id=105
+ name="STATE_105"
+ resources={
+ chromium=20.000
+ aluminium=40.000
+ }
+ history={
+ victory_points = {
+ 6328 3
+ }
+ owner = GER
+ buildings = {
+ infrastructure = 3
+ industrial_complex = 1
+ 6328 = {
+ naval_base = 1
+ }
+ }
+ add_core_of = GER
+ }
+ provinces={
+ 783 4644 6328 6330 7077
+ }
+ manpower=895500
+ buildings_max_level_factor=1.000
+ state_category=rural
+ }
+

@@ -1,0 +1,19 @@
+state={
+ id=697
+ name="STATE_783"
+ manpower = 11043
+ state_category = pastoral
+ history={
+ victory_points = {
+ 7283 1
+ }
+ 
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 7283
+ }
+ }
+

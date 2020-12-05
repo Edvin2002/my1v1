@@ -1,0 +1,15 @@
+state={
+ id=684
+ name="STATE_770"
+ history={
+ victory_points = {
+ 1455 1
+ }
+ }
+ provinces={
+ 1455
+ }
+ manpower=1603975
+ state_category=pastoral
+ }
+

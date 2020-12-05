@@ -1,0 +1,16 @@
+state={
+ id=463
+ name="STATE_536"
+ manpower = 2812000
+ state_category = megalopolis
+ history={
+ 
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 1097
+ }
+ }
+

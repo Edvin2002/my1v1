@@ -1,0 +1,18 @@
+state={
+ id=124
+ name="STATE_126"
+ manpower=9824296
+ state_category = megalopolis
+ history={
+ 
+ victory_points = {
+ 4080 50
+ }
+ buildings = {
+}
+ }
+ provinces={
+ 4080
+ }
+ }
+

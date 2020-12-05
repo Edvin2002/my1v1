@@ -1,0 +1,22 @@
+state={
+ id=663
+ name="STATE_745"
+ provinces={
+ 887
+ }
+ state_category = large_town
+ history=
+ {
+ 
+ 
+ 
+ victory_points = {
+ 887 1
+ }
+ buildings = {
+}
+ }
+ manpower=1000005
+ buildings_max_level_factor=1.000
+ }
+

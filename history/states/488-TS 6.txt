@@ -1,0 +1,23 @@
+state={
+ id=488
+ name="STATE_564"
+ manpower = 370893
+ state_category = town
+ resources={
+ steel=10
+ chromium=12
+ tungsten=40
+ aluminium=4
+ }
+ history={
+ owner = SOV
+ buildings = {
+ infrastructure = 4
+ }
+ add_core_of = SOV
+ }
+ provinces={
+1181 3084 3113 3143 4903 4928 4936 4947 6460 6517 7202 7261
+ }
+ }
+

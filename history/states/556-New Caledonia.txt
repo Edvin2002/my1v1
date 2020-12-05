@@ -1,0 +1,23 @@
+state={
+ id=556
+ name="STATE_635"
+ resources={
+ chromium=90
+ }
+ state_category = small_island
+ history={
+ 
+ 
+ victory_points = {
+ 925 1
+ }
+ buildings = {
+}
+ }
+ provinces={
+ 925
+ }
+ manpower=51876
+ buildings_max_level_factor=1.000
+ }
+

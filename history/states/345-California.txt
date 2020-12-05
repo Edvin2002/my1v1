@@ -1,0 +1,19 @@
+state={
+ id=345
+ name="STATE_378"
+ manpower = 5677248
+ state_category = USA_state
+ resources={
+ oil=180
+ aluminium=8
+ }
+ history={
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 557
+ }
+ }
+

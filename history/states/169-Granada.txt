@@ -1,0 +1,29 @@
+state={
+ id=169
+ name="STATE_173"
+ resources={
+ steel=8.000
+ }
+ history={
+ 
+ victory_points = {
+ 673 5
+ }
+ victory_points = {
+ 673 1
+ }
+ victory_points = {
+ 673 3
+ }
+ buildings = {
+}
+ 
+ }
+ provinces={
+ 673
+ }
+ manpower=1662292
+ buildings_max_level_factor=1.000
+ state_category=city
+ }
+

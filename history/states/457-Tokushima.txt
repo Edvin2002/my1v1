@@ -1,0 +1,18 @@
+state=
+ {
+ id=457
+ name="STATE_530"
+ manpower = 3310000
+ state_category = megalopolis
+ history=
+ {
+ 
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 2878
+ }
+ }
+

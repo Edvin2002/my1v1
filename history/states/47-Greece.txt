@@ -1,0 +1,32 @@
+state={
+ id=47
+ name="STATE_47"
+ manpower=2312500
+ resources={
+ aluminium=26
+ tungsten = 10
+ }
+ state_category = city
+ history={
+ 
+ victory_points = {
+ 752 20
+ }
+ victory_points = {
+ 752 3
+ }
+ victory_points = {
+ 752 3
+ }
+ victory_points = {
+ 752 1
+ }
+ buildings = {
+}
+ 
+ }
+ provinces={
+ 752
+ }
+ }
+

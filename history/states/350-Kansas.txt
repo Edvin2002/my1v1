@@ -1,0 +1,18 @@
+state={
+ id=350
+ name="STATE_383"
+ manpower = 1880998
+ resources={
+ oil=30
+ }
+ state_category = city
+ history={
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 1002
+ }
+ }
+

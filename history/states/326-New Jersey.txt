@@ -1,0 +1,19 @@
+state={
+ id=326
+ name="STATE_359"
+ manpower = 4041332
+ state_category = USA_state
+ history={
+ 
+ victory_points = {
+ 2751 5
+ }
+ buildings = {
+}
+ 
+ }
+ provinces={
+ 2751
+ }
+ }
+

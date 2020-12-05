@@ -1,0 +1,23 @@
+state={
+ id=250
+ name="STATE_257"
+ manpower = 1779583
+ state_category = rural
+ resources={
+ chromium=7
+ }
+ history={
+ owner = SOV
+ buildings = {
+ infrastructure = 4
+ }
+ add_core_of = SOV
+ victory_points = {
+6794 3
+ }
+ }
+ provinces={
+205 246 278 302 327 350 423 2469 2516 5961 6014 6058 6101 6700 6753 6773 6794 6818 6867
+ }
+ }
+

@@ -1,0 +1,21 @@
+state={
+ id=634
+ name="STATE_716"
+ resources={
+ steel=47
+ }
+ history={
+ 
+ 
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 735
+ }
+ manpower=10264620
+ buildings_max_level_factor=1.000
+ state_category=city
+ }
+

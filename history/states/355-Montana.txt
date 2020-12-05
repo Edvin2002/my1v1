@@ -1,0 +1,18 @@
+state={
+ id=355
+ name="STATE_388"
+ manpower = 537605
+ state_category = USA_state
+ resources={
+ tungsten=11
+ }
+ history={
+ 
+ buildings = {
+}
+ }
+ provinces={
+ 1212
+ }
+ }
+
