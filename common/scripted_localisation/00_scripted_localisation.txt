@@ -93,5 +93,11 @@ defined_text = {
 		}
 		localization_key = settings_desc_12
 	}
+	text = {
+		trigger = {
+			tag=EFR
+		}
+		localization_key = settings_desc_13
+	}
 
 }

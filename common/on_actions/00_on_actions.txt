@@ -4,6 +4,8 @@ on_actions = {
 	set_variable={GER.min_fuel = 40}
 	set_variable={SOV.min_fuel = 120}
 	set_variable={HOL.min_fuel = -0.8}
+	set_variable={ITA.min_fuel = -0.5}
+	set_variable={EFR.min_fuel = -1}
 	SOV = {set_country_flag = transfer_enabled
 	every_owned_state= {
 	add_core_of = GER
@@ -27,7 +29,8 @@ on_actions = {
 	add_to_array = { GLOBAL.faction_members_array = HOL.id }#supply
 	add_to_array = { GLOBAL.faction_members_array = ITA.id }#planning
 	add_to_array = { GLOBAL.faction_members_array = BEL.id }#terrain penalty
-	add_to_array = { GLOBAL.faction_members_array = FRA.id }#night
+	add_to_array = { GLOBAL.faction_members_array = FRA.id }#max_dig_in_factor
+	add_to_array = { GLOBAL.faction_members_array = EFR.id }#night
 	}
 }
 }

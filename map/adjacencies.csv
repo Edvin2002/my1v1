@@ -1,7 +1,5 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3862;3836;sea;2834;-1;-1;-1;-1;Adriatic Strait;adriatic
-751;4427;sea;;-1;-1;-1;-1;Berlin-Madrid;Berlin-Madrid
-751;7029;sea;;-1;-1;-1;-1;Vienna-Madrid;Vienna-Madrid
 7265;7123;sea;;-1;-1;-1;-1;Amur-Khabarovsk;Amur-Khabarovsk
 4778;1035;sea;3297;-1;-1;-1;-1;;Moluccas
 6353;1035;sea;3271;-1;-1;-1;-1;;Moluccas
