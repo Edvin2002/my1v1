@@ -14,9 +14,112 @@ scripted_gui = {
 				GER = {has_country_flag = transfer_enabled}
 			}
 		}
-
+		
 		effects = {
+			enable_north_click = {
+				if={limit={check_variable={GLOBAL.enable_north_enabled >0}}
+					clear_variable=GLOBAL.enable_north_enabled
+					set_variable={GLOBAL.enable_south_enabled=2}
+					else={
+					set_variable={GLOBAL.enable_north_enabled=2}
+					}
+				}
+			}
+			enable_south_click = {
+				if={limit={check_variable={GLOBAL.enable_south_enabled >0}}
+					clear_variable=GLOBAL.enable_south_enabled
+					set_variable={GLOBAL.enable_north_enabled=2}
+					else={
+					set_variable={GLOBAL.enable_south_enabled=2}
+					}
+				}
+			}
+			add_cheat2_click={
+					set_variable={GER.min_fuel = 40}
+					set_variable={HOL.min_fuel = -0.8}
+					set_variable={ITA.min_fuel = -0.5}
+					set_variable={EFR.min_fuel = -1}
+					set_variable={DEN.min_fuel = 0}
+					set_variable={SWE.min_fuel = 0}
+					set_variable={BUL.min_fuel = 0}
+					set_variable={GRE.min_fuel = 0}
+					set_variable={PER.min_fuel = 0}
+					set_variable={LUX.min_fuel = 0}
+					set_variable={BEL.min_fuel = 0}
+					set_variable={FRA.min_fuel = 0}
+					set_variable={GLOBAL.enable_north_enabled=2}
+					set_variable={GLOBAL.enable_south_enabled=2}
+		
+			}
+			add_cheat3_click={
+					set_variable={GER.min_fuel = 20}
+					set_variable={SOV.min_fuel = 70}
+					set_variable={HOL.min_fuel = -0.8}
+					set_variable={ITA.min_fuel = -0.5}
+					set_variable={EFR.min_fuel = -1}
+					set_variable={DEN.min_fuel = 0}
+					set_variable={SWE.min_fuel = 0}
+					set_variable={BUL.min_fuel = 0}
+					set_variable={GRE.min_fuel = 0}
+					set_variable={PER.min_fuel = 0}
+					set_variable={LUX.min_fuel = 0}
+					set_variable={BEL.min_fuel = 0}
+					set_variable={FRA.min_fuel = 0}
+					set_variable={GLOBAL.enable_north_enabled=0}
+					set_variable={GLOBAL.enable_south_enabled=2}
+		
+			}	
+			
 			add_cheat_click={
+				if={
+					limit={check_variable={GLOBAL.enable_north_enabled =0}
+					}
+					every_state={
+					limit={OR={state=94 state=95 state=199 state=11 state=182 state=94 state=187 state=217 state=198 state=197 state=200 state=235 state=239 state=203 state=234 state=236 state=96 state=12 state=183 state=184 state=13 state=142 state=201 state=188 state=698 state=202 state=256 state=237 state=201 state=188}}
+					SWE={transfer_state=PREV}
+					}
+					every_state={
+					limit={OR={ state=67 state=66 state=10 state=97 state=98 state=5 state=677 state=181 state=63 state=85 state=87 state=86 state=68 state=712}}
+					SWE={transfer_state=PREV}
+					}
+				
+				}
+				else={
+					every_state={
+					limit={OR={state=94 state=95 state=199 state=11 state=182 state=94 state=187 state=217 state=198 state=197 state=200 state=235 state=239 state=203 state=234 state=236 state=96 state=12 state=183 state=184 state=13 state=142 state=201 state=188 state=698 state=202 state=256 state=237 state=201 state=188}}
+					SOV={transfer_state=PREV}
+					}
+					every_state={
+					limit={OR={ state=67 state=66 state=10 state=97 state=98 state=5 state=677 state=181 state=63 state=85 state=87 state=86 state=68 state=712}}
+					GER={transfer_state=PREV}
+					}
+				
+				}
+				if={
+					limit={check_variable={GLOBAL.enable_south_enabled =0}
+					}
+					every_state={
+					limit={OR={ state=89 state=192 state=91 state=93 state=194 state=195 state=186 state=196 state=190 state=189 state=133 state=680 state=78 state=185 state=80 state=191 state=219 state=252 state=191 state=80 state=193 state=220 state=218 state=213 state=233 state=214 state=215 state=251 state=216 state=247 state=253 state=221 state=211 state=227 state=226 state=224}}
+					SWE={transfer_state=PREV}
+					}
+					every_state={
+					limit={OR={  state=53 state=69 state=52 state=148 state=149 state=92 state= 67 state=676 state=74 state=9 state=90 state=932 state=88 state=71 state=73 state=76 state=79 state=46 state=204 state=77}}
+					SWE={transfer_state=PREV}
+					}
+				}
+				else={
+					every_state={
+					limit={OR={ state=89 state=192 state=91 state=93 state=194 state=195 state=186 state=196 state=190 state=189 state=133 state=680 state=78 state=185 state=80 state=191 state=219 state=252 state=191 state=80 state=193 state=220 state=218 state=213 state=233 state=214 state=215 state=251 state=216 state=247 state=253 state=221 state=211 state=227 state=226 state=224}}
+					SOV={transfer_state=PREV}
+					}
+					every_state={
+					limit={OR={  state=53 state=69 state=52 state=148 state=149 state=92 state= 67 state=676 state=74 state=9 state=90 state=932 state=88 state=71 state=73 state=76 state=79 state=46 state=204 state=77}}
+					GER={transfer_state=PREV}
+					}
+				
+				}
+			set_variable={GLOBAL.match_started=1}
+		
 			SOV = {
 			create_wargoal = {
 			type = puppet_wargoal_focus
@@ -220,7 +323,7 @@ scripted_gui = {
 				clamp_variable={
 					var=min_fuel
 					min=0
-					max=100
+					max=200
 				}
 				}
 				else = {
@@ -238,7 +341,7 @@ scripted_gui = {
 				clamp_variable={
 					var=min_fuel
 					min=0
-					max=100
+					max=200
 				}
 				}
 				else = {
@@ -256,7 +359,7 @@ scripted_gui = {
 				clamp_variable={
 					var=min_fuel
 					min=0
-					max=100
+					max=200
 				}
 				}
 				else = {
@@ -274,7 +377,7 @@ scripted_gui = {
 				clamp_variable={
 					var=min_fuel
 					min=0
-					max=100
+					max=200
 				}
 				}
 				else = {
@@ -295,6 +398,16 @@ scripted_gui = {
 				entry_container = fuel_faction_members_entry
 				change_scope = yes
 			}
+		}
+		properties = {
+			enable_north={
+				frame = GLOBAL.enable_north_enabled
+			}
+			enable_south={
+				frame = GLOBAL.enable_south_enabled
+			}
+
+
 		}
 		triggers = {
 

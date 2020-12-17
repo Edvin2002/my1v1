@@ -2,10 +2,12 @@ on_actions = {
 	on_startup = {
 	effect = {
 	set_variable={GER.min_fuel = 40}
-	set_variable={SOV.min_fuel = 120}
+	set_variable={SOV.min_fuel = 140}
 	set_variable={HOL.min_fuel = -0.8}
 	set_variable={ITA.min_fuel = -0.5}
 	set_variable={EFR.min_fuel = -1}
+	set_variable={GLOBAL.enable_north_enabled=2}
+	set_variable={GLOBAL.enable_south_enabled=2}
 	SOV = {set_country_flag = transfer_enabled
 	every_owned_state= {
 	add_core_of = GER

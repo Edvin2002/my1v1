@@ -2,7 +2,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "horsttool_open_container"
-		position = { x = -593 y = 4 }
+		position = { x = -953 y = 4 }
 		Orientation = UPPER_RIGHT
 		buttonType = {
 			name = "tool_open"
@@ -31,7 +31,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "horsttool_container"
 		position = {x=600 y=200}
-		size = { width=650 height=600}
+		size = { width=700 height=650}
 		Orientation = UPPER_LEFT
 		fade_time = 300
 		fade_type = linear
@@ -47,7 +47,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "why use lel lennard"
 			#position = {x=14 y=}
-			position = {x=200 y=12}
+			position = {x=225 y=12}
 			font = "hoi_24header"
 			text = "Settings"
 			maxWidth = 200
@@ -58,13 +58,76 @@ guiTypes = {
 #######################################################################
 		buttonType = {
 			name = "add_cheat" 
-			position = {x=240 y=552}
-			buttontext = "Start"
+			position = {x=240 y=580}
+			#buttontext = "Start"
+			buttontext =[Getstartname]
 			quadTextureSprite ="GFX_button_123x34"	
 			buttonFont = "hoi_24header"
 			#spriteType = = "GFX_lobby_button"
             #pdx_tooltip = "ADD_CHEAT"
 			#pdx_tooltip_delayed = "ADD_CHEAT_DELAYED"
+		}
+		buttonType = {
+			name = "add_cheat2" 
+			position = {x=400 y=580}
+			buttontext = "2v2Preset"
+			quadTextureSprite ="GFX_button_123x34"	
+			buttonFont = "hoi_24header"
+			#spriteType = = "GFX_lobby_button"
+            #pdx_tooltip = "ADD_CHEAT"
+			#pdx_tooltip_delayed = "ADD_CHEAT_DELAYED"
+		}
+		buttonType = {
+			name = "add_cheat3" 
+			position = {x=100 y=580}
+			buttontext = "1v1Preset"
+			quadTextureSprite ="GFX_button_123x34"	
+			buttonFont = "hoi_24header"
+			#spriteType = = "GFX_lobby_button"
+            #pdx_tooltip = "ADD_CHEAT"
+			#pdx_tooltip_delayed = "ADD_CHEAT_DELAYED"
+		}
+		instantTextboxType = {
+			name = "North"
+			#position = {x=14 y=}
+			position = {x=480 y=225}
+			font = "hoi_24header"
+			text = "North"
+			maxWidth = 200
+			maxHeight = 23
+			format = centre
+		}
+		
+		instantTextboxType = {
+			name = "South"
+			#position = {x=14 y=}
+			position = {x=480 y=275}
+			font = "hoi_24header"
+			text = "South"
+			maxWidth = 200
+			maxHeight = 23
+			format = centre
+		}
+		buttonType = {
+			name = "enable_north"
+			spriteType = "GFX_generic_checkbox"
+			frame = 1
+			buttonFont = "hoi_16mbs"
+			position = { x = 630 y = 225 }
+			size = { x = 75 y = 25 }
+			pdx_tooltip = "ADD_CORE_TT"
+			pdx_tooltip_delayed = "ADD_CORE_TT_DELAYED"
+		}
+		
+		buttonType = {
+			name = "enable_south"
+			spriteType = "GFX_generic_checkbox"
+			frame = 1
+			buttonFont = "hoi_16mbs"
+			position = { x = 630 y = 275 }
+			size = { x = 75 y = 25 }
+			pdx_tooltip = "ADD_CORE_TT"
+			pdx_tooltip_delayed = "ADD_CORE_TT_DELAYED"
 		}
 		buttonType = {
 			name = "observer" 
@@ -85,7 +148,7 @@ guiTypes = {
 		}
 		gridboxtype = {
 				name = "fuel_faction_members_gridbox"
-				position = { x = 30 y = 34 }
+				position = { x = 30 y = 54 }
 				size = { width = 100%% height = 100%% }
 				slotsize = { width = 1 height = 1 }
 				add_horizontal = no

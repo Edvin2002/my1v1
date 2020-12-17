@@ -65,6 +65,7 @@ NDefines.NProduction.LICENSE_IC_COST_YEAR_INCREASE = 0	-- IC cost equipment for 
 
 NDefines.NProduction.MIN_POSSIBLE_TRAINING_MANPOWER = 5000000
 NDefines.NProduction.BASE_FACTORY_SPEED_MIL = 0
+NDefines.NProduction.BASE_FACTORY_SPEED_NAV = 0
 NDefines.NBuildings.RADAR_RANGE_BASE = 100
 NDefines.NBuildings.RADAR_RANGE_MIN = 100
 NDefines.NBuildings.RADAR_RANGE_MAX = 1000
@@ -175,7 +176,7 @@ NDefines_Graphics.NGraphics.DRAW_FOW_FADE_LENGTH = 0
 
 
 --HFU defines:
-NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 3
+NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 2
 NDefines.NDiplomacy.BASE_SEND_ATTACHE_CP_COST = 0
 NDefines.NDiplomacy.BASE_SEND_ATTACHE_COST= 100
 NDefines.NDiplomacy.TENSION_VOLUNTEER_FORCE_DIVISION = 0.15

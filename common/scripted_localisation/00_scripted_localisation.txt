@@ -20,6 +20,23 @@ defined_text = {
 	}
 }
 defined_text = {
+	name = Getstartname
+	text = {
+		trigger = {
+			NOT={check_variable={GLOBAL.match_started>0}}
+			
+		}
+		localization_key = start_desc_1
+	}
+	text = {
+		trigger = {
+			check_variable={GLOBAL.match_started>0}
+		}
+		localization_key = start_desc_2
+	}
+	
+}
+defined_text = {
 	name = Getsettingsdesc
 	text = {
 		trigger = {
