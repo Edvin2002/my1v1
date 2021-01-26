@@ -9,7 +9,7 @@ state={
  
  
  buildings = {
-}
+ }
  }
  impassable=yes
  provinces={

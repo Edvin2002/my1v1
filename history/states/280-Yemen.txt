@@ -5,11 +5,11 @@ state={
  state_category = rural
  history={
  buildings = {
- infrastructure = 0
+ infrastructure = 10
  }
  }
  provinces={
-1308
+ 1308
  }
  }
 

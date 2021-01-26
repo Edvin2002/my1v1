@@ -6,13 +6,13 @@ state={
  history={
  owner = SOV
  buildings = {
- infrastructure = 1
+ infrastructure = 10
  }
  add_core_of = SOV
  }
  impassable=yes
  provinces={
-1197
+ 1197
  }
  }
 

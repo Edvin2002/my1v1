@@ -13,7 +13,7 @@ state={
  1340 1
  }
  buildings = {
-}
+ }
  }
  provinces={
  1340

@@ -5,20 +5,20 @@ state={
  state_category = rural
  history={
  victory_points = {
-2484 5
+ 2484 5
  }
  victory_points = {
-6765 3
+ 6765 3
  }
  owner = SOV
  buildings = {
- infrastructure = 5
- arms_factory = 2
+ infrastructure = 10
+ 
  }
  add_core_of = SOV
  }
  provinces={
-270 294 321 342 2484 2789 4298 6765
+ 270 294 321 342 2484 2789 4298 6765
  }
  }
 

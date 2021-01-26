@@ -4,15 +4,15 @@ state={
  history={
  owner = SOV
  victory_points = {
-7233 1
+ 7233 1
  }
  buildings = {
- infrastructure = 1
+ infrastructure = 10
  }
  add_core_of = SOV
  }
  provinces={
-1080 1164 1255 1365 2891 2938 2968 2993 3115 3179 3208 6436 6462 6519 7175 7205 7232 7233 7342
+ 1080 1164 1255 1365 2891 2938 2968 2993 3115 3179 3208 6436 6462 6519 7175 7205 7232 7233 7342
  }
  manpower=230000
  buildings_max_level_factor=1.000

@@ -7,19 +7,19 @@ state={
  }
  owner = GER
  buildings = {
- infrastructure = 5
- industrial_complex = 2
- air_base = 1
+ infrastructure = 10
+ 
+ 
  }
  add_core_of = GER
  1939.1.1 = {
  buildings = {
- air_base = 3
+ 
  }
  }
  }
  provinces={
- 2658 4474 6127 6181 6834 
+ 2658 4474 6127 6181 6834
  }
  manpower=2464600
  buildings_max_level_factor=1.000

@@ -6,16 +6,16 @@ state={
  history={
  owner = GER
  buildings = {
- infrastructure = 6
- arms_factory = 6
+ infrastructure = 10
+ 
  }
  add_core_of = GER
  victory_points = {
-6175 3
+ 6175 3
  }
  }
  provinces={
-482 518 533 2442 2643 2669 4576 6175 6287 6917
+ 482 518 533 2442 2643 2669 4576 6175 6287 6917
  }
  }
 

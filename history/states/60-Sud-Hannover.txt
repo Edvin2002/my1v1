@@ -13,19 +13,19 @@ state={
  victory_points = {2659 5 }
  victory_points = {377 3 }
  buildings = {
- infrastructure = 6
- industrial_complex = 1
+ infrastructure = 10
+ 
  }
  add_core_of = GER
  1939.1.1 = {
  buildings = {
  synthetic_refinery = 3
- arms_factory = 2
+ 
  }
  }
  }
  provinces={
-377 434 488 2612 2659 4410 4430 4476 6163
+ 377 434 488 2612 2659 4410 4430 4476 6163
  }
  }
 

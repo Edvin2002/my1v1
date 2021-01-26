@@ -7,7 +7,7 @@ state={
  2040 1
  }
  buildings = {
-}
+ }
  
  }
  provinces={

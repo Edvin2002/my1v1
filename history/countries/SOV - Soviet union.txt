@@ -1,5 +1,5 @@
 capital = 212
-#oob = "SOV_1936"
+oob = "GER_1936"
 country_lock_all_division_template = yes
 set_research_slots = 0
 set_stability = 1
@@ -69,6 +69,9 @@ set_politics = {
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+set_popularities = {
+	communism = 100
 }
 # add_ideas = {
 	# trotskyite_plot

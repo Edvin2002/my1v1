@@ -6,21 +6,21 @@ state={
  history={
  owner = GER
  buildings = {
- infrastructure = 7
- industrial_complex = 2
+ infrastructure = 10
+ 
  }
  victory_points = {
-6955 10
+ 6955 10
  }
  add_core_of = GER
  1939.1.1 = {
  buildings = {
- air_base = 3
+ 
  }
  }
  }
  provinces={
-508 2591 4336 4487 6096 6212 6224 6839 6850 6941 6955 7332
+ 508 2591 4336 4487 6096 6212 6224 6839 6850 6941 6955 7332
  }
  }
 

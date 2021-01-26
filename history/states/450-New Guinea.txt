@@ -5,7 +5,7 @@ state={
  
  
  buildings = {
-}
+ }
  }
  provinces={
  910

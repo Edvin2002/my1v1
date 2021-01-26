@@ -9,7 +9,7 @@ state={
  6345 1
  }
  buildings = {
-}
+ }
  }
  provinces={
  6345

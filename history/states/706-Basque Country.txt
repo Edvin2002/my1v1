@@ -10,7 +10,7 @@ state={
  666 10
  }
  buildings = {
-}
+ }
  
  }
  provinces={

@@ -42,7 +42,7 @@ sabotage_arms_factory = {
 			add = 4
 		}
 		modifier = {
-			occupation_law = harsh_quotas_occupation
+			#occupation_law = harsh_quotas_occupation
 			add = -0.25
 		}
 	}
@@ -128,7 +128,7 @@ sabotage_industrial_complex = {
 			add = 4
 		}
 		modifier = {
-			occupation_law = harsh_quotas_occupation
+			#occupation_law = harsh_quotas_occupation
 			add = -0.25
 		}
 	}

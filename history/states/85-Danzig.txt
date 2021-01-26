@@ -15,13 +15,13 @@ state={
  250 1
  }
  buildings = {
- infrastructure = 6
- arms_factory = 2
- industrial_complex = 1
- dockyard = 1
- air_base = 3
+ infrastructure = 10
+ 
+ 
+ 
+ 
  323 = {
- naval_base = 5
+ 
  }
  }
  add_core_of = GER

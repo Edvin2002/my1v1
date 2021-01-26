@@ -23,7 +23,7 @@ branch_intelligence = {
 				civilian_intel_factor = 0.25
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 	}
@@ -48,7 +48,7 @@ branch_intelligence = {
 				army_intel_factor = 0.25
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 
@@ -74,7 +74,7 @@ branch_intelligence = {
 				navy_intel_factor = 0.25
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 
@@ -100,7 +100,7 @@ branch_intelligence = {
 				airforce_intel_factor = 0.25
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 
@@ -129,7 +129,7 @@ branch_defense = {
 				intelligence_agency_defense = 1.5
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 
@@ -138,7 +138,7 @@ branch_defense = {
 				intelligence_agency_defense = 1.25
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 
@@ -147,7 +147,7 @@ branch_defense = {
 				intelligence_agency_defense = 1
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 
@@ -156,7 +156,7 @@ branch_defense = {
 				intelligence_agency_defense = 1
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 
@@ -181,7 +181,7 @@ branch_defense = {
 				root_out_resistance_effectiveness_factor = 0.25
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 
@@ -190,7 +190,7 @@ branch_defense = {
 				root_out_resistance_effectiveness_factor = 0.25
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 	}
@@ -218,7 +218,7 @@ branch_operation = {
 				operation_steal_tech_outcome = 0.25
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 
@@ -247,7 +247,7 @@ branch_operation = {
 				operation_coordinated_strike_outcome = 1
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 
@@ -273,7 +273,7 @@ branch_operation = {
 				operation_steal_tech_risk = -0.25
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 
@@ -299,7 +299,7 @@ branch_operation = {
 				boost_resistance_factor = 0.25
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 
@@ -325,7 +325,7 @@ branch_operation = {
 				own_operative_detection_chance = -0.05
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 
@@ -356,7 +356,7 @@ branch_operative = {
 				new_operative_slot_bonus = 1
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 
@@ -381,7 +381,7 @@ branch_operative = {
 				commando_trait_chance_factor = 1 # +100%
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 
@@ -407,7 +407,7 @@ branch_operative = {
 				enemy_operative_intel_extraction_rate = 0.25 # +25%
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 
@@ -433,7 +433,7 @@ branch_operative = {
 				diplomatic_pressure_mission_factor = 0.25
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 
@@ -459,7 +459,7 @@ branch_operative = {
 				boost_ideology_mission_factor = 0.25
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 
@@ -491,7 +491,7 @@ branch_crypto = {
 				decryption_power = 25
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 
@@ -520,7 +520,7 @@ branch_crypto = {
 				decryption_power = 25
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 
@@ -529,7 +529,7 @@ branch_crypto = {
 				decryption_power = 10
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 	}
@@ -558,7 +558,7 @@ branch_crypto = {
 				decryption_power = 25
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 
@@ -567,7 +567,7 @@ branch_crypto = {
 				decryption_power = 15
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 
@@ -576,7 +576,7 @@ branch_crypto = {
 				decryption_power = 10
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 
@@ -605,7 +605,7 @@ branch_crypto = {
 				crypto_strength = 1
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 
@@ -614,7 +614,7 @@ branch_crypto = {
 				crypto_strength = 1
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 	}
@@ -643,7 +643,7 @@ branch_crypto = {
 				crypto_strength = 2
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 
@@ -652,7 +652,7 @@ branch_crypto = {
 				crypto_strength = 2
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 
@@ -661,7 +661,7 @@ branch_crypto = {
 				crypto_strength = 2
 			}
 			complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+				#hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 	}

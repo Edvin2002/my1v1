@@ -8,7 +8,7 @@ state={
  871 1
  }
  buildings = {
-}
+ }
  }
  state_category = pastoral
  provinces={

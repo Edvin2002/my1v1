@@ -9,9 +9,9 @@ state={
  2459 3
  }
  buildings = {
- infrastructure = 5
- arms_factory = 1
- air_base = 5
+ infrastructure = 10
+ 
+ 
  }
  add_core_of = SOV
  }

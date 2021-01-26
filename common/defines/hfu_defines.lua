@@ -56,7 +56,7 @@ NDefines.NDiplomacy.DIPLOMACY_HOURS_BETWEEN_REQUESTS = 12
 NDefines.NDiplomacy.MIN_TRUST_VALUE = -500 							-- WAS -100 | this is added to support embargoing nations to prevent trade memes from players in an opposing faction | Min opinion value cap.
 
 ---------------------------------------------------------------
-NDefines.NPolitics.DEFAULT_OCCUPATION_POLICY = 4                   --HARSHEST 
+NDefines.NPolitics.DEFAULT_OCCUPATION_POLICY = 1                   --HARSHEST 
 ---------------------------------------------------------------
 NDefines.NProduction.MIN_LICENSE_ACTIVE_DAYS = 1                 -- License can be cancelled at any time now, down from 30 |                  -- Was 1, reduced to counter early game boosting, particularly cancerous Germany builds that force Bulgaria players to build a battleship in the black sea for "shore bombardment" via license and imported steel from Germany
 NDefines.NTechnology.LICENSE_PRODUCTION_TECH_BONUS = 0	-- License production tech bonus
@@ -221,7 +221,7 @@ NDefines.NNavy.RESOURCE_ORIGIN_PRIORITY = 3
 --Combat 
 NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0   -- global damage modifier... but some equipment is returned at end of battles see : EQUIPMENT_COMBAT_LOSS_FACTOR
 NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.04
-NDefines.NMilitary.LAND_COMBAT_COLLATERAL_FACTOR = 0.003 -- vanilla is 0.005
+NDefines.NMilitary.LAND_COMBAT_COLLATERAL_FACTOR = 0.00 -- vanilla is 0.005
 NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.0    -- air global damage modifier
 NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.0   -- global damage modifier
 NDefines.NNavy.AMPHIBIOUS_LANDING_PENALTY = -0.75 --vanilla 
@@ -235,16 +235,17 @@ NDefines.NMilitary.FIELD_EXPERIENCE_SCALE = 0.005
 NDefines.NMilitary.FIELD_EXPERIENCE_MAX_PER_DAY = 3
 NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.1
 NDefines.NMilitary.COMBAT_MINIMUM_TIME = 2
+NDefines.NMilitary.SUPPLY_GRACE = 120
 NDefines.NCountry.REINFORCEMENT_EQUIPMENT_DELIVERY_SPEED = 0.6
 NDefines.NCountry.REINFORCEMENT_MANPOWER_DELIVERY_SPEED = 20
 NDefines.NCountry.REINFORCEMENT_MANPOWER_CHUNK = 0.08
 NDefines.NCountry.AIR_SUPPLY_CONVERSION_SCALE = 0.10
-
-NDefines.NBuildings.INFRA_TO_SUPPLY = 1.9
+NDefines.NPolitics.BASE_POLITICAL_POWER_INCREASE = 0
+NDefines.NBuildings.INFRA_TO_SUPPLY = 4
 NDefines.NCountry.VP_TO_SUPPLY_BASE = 0
-NDefines.NCountry.VP_TO_SUPPLY_BONUS_CONVERSION = 1
+NDefines.NCountry.VP_TO_SUPPLY_BONUS_CONVERSION = 0
 NDefines.NCountry.SUPPLY_FROM_DAMAGED_INFRA = 0.8
-NDefines.NCountry.SUPPLY_PATH_MAX_DISTANCE = 8
+NDefines.NCountry.SUPPLY_PATH_MAX_DISTANCE = 15
 NDefines.NCountry.BASE_MOBILIZATION_SPEED = 0.02
 --NDefines.NCountry.SUPPLY_BONUS_FROM_INPUT = 0 --not sure yet
 --Halving overall fuel
@@ -368,7 +369,7 @@ NDefines.NIntel.ARMY_INTEL_COMBAT_BONUS_MAX_BONUS = 0.075 			-- max combat bonus
 
 NDefines.NIntel.DYNAMIC_INTEL_SOURCE_EVENT_MAXIMUMS = { 200, 200, 200, 200 } --Intel from events was 40
 NDefines.NIntel.DYNAMIC_INTEL_SOURCE_EVENT_ABSOLUTE_MAXIMUMS = { 200, 200, 200, 200 } --Intel from events was 50
-
+NDefines.NIntel.STATIC_INTEL_SOURCE_RADAR_MAXIMUMS = { 200, 200, 200, 200 }
 
 
 --NDefines.NMilitary.PLAN_MIN_AUTOMATED_EMPTY_POCKET_SIZE = 10		--dont know how this works-- The battle plan system will only automatically attack provinces in pockets that has no resistance and are no bigger than these many provinces

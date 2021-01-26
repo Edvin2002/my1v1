@@ -5,18 +5,18 @@ state={
  state_category = town
  history={
  victory_points = {
-4300 3
+ 4300 3
  }
  owner = GER
  controller = GER
  buildings = {
- infrastructure = 6
- industrial_complex = 4
+ infrastructure = 10
+ 
  }
  add_core_of = GER
  }
  provinces={
-238 2485 2508 4300 4320 6025 6041 6062 6082 6715 6822
+ 238 2485 2508 4300 4320 6025 6041 6062 6082 6715 6822
  }
  }
 

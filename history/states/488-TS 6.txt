@@ -12,12 +12,12 @@ state={
  history={
  owner = SOV
  buildings = {
- infrastructure = 4
+ infrastructure = 10
  }
  add_core_of = SOV
  }
  provinces={
-1181 3084 3113 3143 4903 4928 4936 4947 6460 6517 7202 7261
+ 1181 3084 3113 3143 4903 4928 4936 4947 6460 6517 7202 7261
  }
  }
 

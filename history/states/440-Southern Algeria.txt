@@ -10,7 +10,7 @@ state={
  880 1
  }
  buildings = {
-}
+ }
  }
  provinces={
  880

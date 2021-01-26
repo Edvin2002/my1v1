@@ -16,12 +16,12 @@ state={
  7067 1
  }
  buildings = {
- infrastructure = 3
- arms_factory = 1
- industrial_complex = 2
- air_base = 3
+ infrastructure = 10
+ 
+ 
+ 
  7067 = {
- naval_base = 4
+ 
  }
  }
  add_core_of = GER

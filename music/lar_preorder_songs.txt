@@ -8,11 +8,6 @@ music = {
 		factor = 1
 		modifier = {
 			factor = 2
-
-			original_tag = FRA
-		}
-		modifier = {
-			factor = 2
 		}
 	}
 

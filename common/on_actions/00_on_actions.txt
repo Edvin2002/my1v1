@@ -1,6 +1,48 @@
 on_actions = {
+	on_monthly_SWE = {
+	effect = {
+	add_intel = {
+		target = SOV
+		civilian_intel = 200
+		army_intel = 200
+		navy_intel = 200
+		airforce_intel = 200
+	}
+	add_intel = {
+		target = GER
+		civilian_intel = 200
+		army_intel = 200
+		navy_intel = 200
+		airforce_intel = 200
+	}
+	}
+	}
 	on_startup = {
 	effect = {
+	SWE = {
+	add_intel = {
+		target = SOV
+		civilian_intel = 200
+		army_intel = 200
+		navy_intel = 200
+		airforce_intel = 200
+	}
+	add_intel = {
+		target = GER
+		civilian_intel = 200
+		army_intel = 200
+		navy_intel = 200
+		airforce_intel = 200
+	}
+	every_owned_state= {
+		add_building_construction = {
+			type = radar_station
+    		level = 5
+    		instant_build = yes
+		}
+	
+	}
+	}
 	set_variable={GER.min_fuel = 40}
 	set_variable={SOV.min_fuel = 140}
 	set_variable={HOL.min_fuel = -0.8}
@@ -11,11 +53,13 @@ on_actions = {
 	SOV = {set_country_flag = transfer_enabled
 	every_owned_state= {
 	add_core_of = GER
+	add_core_of = SWE
 	}
 	}
 	GER = {set_country_flag = transfer_enabled
 	every_owned_state= {
 	add_core_of = SOV
+	add_core_of = SWE
 	}
 	}
 	GER = {add_dynamic_modifier = { modifier = Barb_Modifiers scope=GER }}

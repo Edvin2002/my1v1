@@ -19,7 +19,7 @@ state={
  522 15
  }
  buildings = {
-}
+ }
  }
  provinces={
  522

@@ -10,11 +10,11 @@ state=
  }
  owner = SOV
  buildings = {
- infrastructure = 4
- dockyard = 1
- air_base = 5
+ infrastructure = 10
+ 
+ 
  4577 = {
- naval_base = 3
+ 
  }
  }
  add_core_of = SOV

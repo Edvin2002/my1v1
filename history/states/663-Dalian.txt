@@ -14,7 +14,7 @@ state={
  887 1
  }
  buildings = {
-}
+ }
  }
  manpower=1000005
  buildings_max_level_factor=1.000

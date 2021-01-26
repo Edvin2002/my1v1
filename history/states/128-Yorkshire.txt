@@ -18,7 +18,7 @@ state={
  4212 3
  }
  buildings = {
-}
+ }
  }
  provinces={
  4212

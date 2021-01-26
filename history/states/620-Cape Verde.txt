@@ -5,11 +5,11 @@ state={
  state_category = small_island
  history={
  buildings = {
- infrastructure = 3
+ infrastructure = 10
  }
  }
  provinces={
-7297
+ 7297
  }
  }
 

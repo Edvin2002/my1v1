@@ -6,15 +6,15 @@ state={
  history={
  owner = SOV
  buildings = {
- infrastructure = 5
+ infrastructure = 10
  }
  add_core_of = SOV
  victory_points = {
-6706 3
+ 6706 3
  }
  }
  provinces={
-180 220 315 343 2470 4186 4234 5968 6028 6047 6073 6706 6725
+ 180 220 315 343 2470 4186 4234 5968 6028 6047 6073 6706 6725
  }
  }
 

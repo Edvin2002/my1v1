@@ -15,9 +15,9 @@ state={
  6950 5
  }
  buildings = {
- infrastructure = 5
- arms_factory = 2
- air_base = 3
+ infrastructure = 10
+ 
+ 
  }
  add_core_of = GER
  1939.3.14 = {

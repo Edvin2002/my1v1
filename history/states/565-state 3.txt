@@ -4,13 +4,13 @@ state={
  history={
  owner = SOV
  buildings = {
- infrastructure = 1
+ infrastructure = 10
  }
  add_core_of = SOV
  }
  impassable=yes
  provinces={
-1205
+ 1205
  }
  manpower=68364
  buildings_max_level_factor=1

@@ -9,18 +9,18 @@ state={
  4455 10
  }
  buildings = {
- infrastructure = 6
- industrial_complex = 1
+ infrastructure = 10
+ 
  6704 = {
- bunker = 1
+ 
  }
  6190 = {
- bunker = 1
+ 
  }
  2509 = {
- bunker = 1
+ 
  }
- air_base = 3
+ 
  }
  add_core_of = GER
  1938.3.12 = {

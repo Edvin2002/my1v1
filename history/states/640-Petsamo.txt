@@ -5,11 +5,11 @@ state={
  state_category = enclave
  history={
  buildings = {
- infrastructure = 1
+ infrastructure = 10
  }
  }
  provinces={
-4008 4142 5885 6637
+ 4008 4142 5885 6637
  }
  }
 

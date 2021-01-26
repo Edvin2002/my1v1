@@ -69,7 +69,9 @@ autonomous_occupation = {
 	visible = {
 		always=yes
 	}
-
+	available = {
+				always = yes
+			}
 	state_modifier = {
 		compliance_gain 				= 0.2
 		required_garrison_factor 		= -1

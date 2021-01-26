@@ -4,7 +4,7 @@ state={
  history={
  
  buildings = {
-}
+ }
  
  }
  provinces={

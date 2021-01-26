@@ -1,5 +1,5 @@
 capital = 64
-#oob = "GER_1936"
+oob = "GER_1936"
 set_fuel_ratio = 1
 country_lock_all_division_template = yes
 # Starting tech

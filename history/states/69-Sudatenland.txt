@@ -19,30 +19,30 @@ state=
  }
  owner = GER
  buildings = {
- infrastructure = 8
- arms_factory = 3
- industrial_complex = 4
+ infrastructure = 10
+ 
+ 
  anti_air_building = 1
  376 = {
- bunker = 1
+ 
  }
  421 = {
- bunker = 1
+ 
  }
  2681 = {
- bunker = 1
+ 
  }
  3287 = {
- bunker = 1
+ 
  }
  4383 = {
- bunker = 1
+ 
  }
  6210 = {
- bunker = 1
+ 
  }
  6863 = {
- bunker = 1
+ 
  }
  }
  add_core_of = GER

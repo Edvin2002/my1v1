@@ -8,27 +8,27 @@ state={
  history={
  owner = GER
  victory_points = {
-6177 20
+ 6177 20
  }
  victory_points = {
-6919 3
+ 6919 3
  }
  buildings = {
- infrastructure = 8
- arms_factory = 5
- industrial_complex = 1
- air_base = 3
+ infrastructure = 10
+ 
+ 
+ 
  }
  add_core_of = GER
  1939.1.1 = {
  buildings = {
- arms_factory = 11
- industrial_complex = 3
+ 
+ 
  }
  }
  }
  provinces={
-471 629 2635 2741 2749 2750 4441 4452 4464 4475 4567 4646 6177 6201 6272 6909 6919 7013 7336
+ 471 629 2635 2741 2749 2750 4441 4452 4464 4475 4567 4646 6177 6201 6272 6909 6919 7013 7336
  }
  manpower=5086854
  buildings_max_level_factor=1.000

@@ -10,7 +10,7 @@ state={
  
  
  buildings = {
-}
+ }
  }
  manpower=500000
  buildings_max_level_factor=1.000

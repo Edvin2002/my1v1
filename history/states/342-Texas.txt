@@ -10,7 +10,7 @@ state={
  history={
  
  buildings = {
-}
+ }
  }
  provinces={
  710

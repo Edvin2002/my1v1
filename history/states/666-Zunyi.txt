@@ -8,7 +8,7 @@ state={
  
  
  buildings = {
-}
+ }
  }
  manpower=1500000
  state_category=pastoral

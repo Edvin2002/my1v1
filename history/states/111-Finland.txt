@@ -5,31 +5,31 @@ state={
  state_category = city
  history={
  victory_points = {
-6611 15
+ 6611 15
  }
  victory_points = {
-2263 1
+ 2263 1
  }
  victory_points = {
-2307 1
+ 2307 1
  }
  buildings = {
- infrastructure = 6
- industrial_complex = 2
- dockyard = 1
- air_base = 5
+ infrastructure = 10
+ 
+ 
+ 
  6611 = {
- naval_base = 5
- coastal_bunker = 2
+ 
+ 
  }
  2263 = {
- naval_base = 3
- coastal_bunker = 1
+ 
+ 
  }
  }
  }
  provinces={
-32 51 64 150 178 2197 2212 2244 2263 2289 2307 2325 4006 4034 4049 4063 4084 4113 4127 4144 5833 5848 5877 5896 5902 5913 5921 6572 6579 6611 6633 6659 6687 7316 7317 7318 7319 7321 7322 7323
+ 32 51 64 150 178 2197 2212 2244 2263 2289 2307 2325 4006 4034 4049 4063 4084 4113 4127 4144 5833 5848 5877 5896 5902 5913 5921 6572 6579 6611 6633 6659 6687 7316 7317 7318 7319 7321 7322 7323
  }
  }
 

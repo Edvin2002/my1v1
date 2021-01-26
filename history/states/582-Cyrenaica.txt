@@ -7,7 +7,7 @@ state={
  360 20
  }
  buildings = {
-}
+ }
  
  }
  provinces={

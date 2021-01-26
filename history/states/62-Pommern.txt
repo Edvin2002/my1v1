@@ -5,22 +5,22 @@ state={
  state_category = town
  history={
  victory_points = {
-6075 1
+ 6075 1
  }
  owner = GER
  buildings = {
- infrastructure = 6
+ infrastructure = 10
  fuel_silo = 1
  }
  add_core_of = GER
  1939.1.1 = {
  buildings = {
- air_base = 8
+ 
  }
  }
  }
  provinces={
-311 2360 2406 2452 2476 6075
+ 311 2360 2406 2452 2476 6075
  }
  }
 

@@ -11,13 +11,13 @@ state={
  add_core_of = SOV
  add_claim_by = JAP
  buildings = {
- infrastructure = 3
- air_base = 1
+ infrastructure = 10
+ 
  }
  }
  impassable=yes
  provinces={
-749
+ 749
  }
  }
 

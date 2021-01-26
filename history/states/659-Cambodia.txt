@@ -8,7 +8,7 @@ state={
  987 1
  }
  buildings = {
-}
+ }
  }
  provinces={
  987

@@ -6,14 +6,14 @@ state={
  resources={
  }
  history={
-	buildings = {
-	radar_station = 5	
+ buildings = {
+ radar_station = 5
  }
  owner = SWE
  add_core_of = SWE
  }
  provinces={
-184
+ 184
  }
  }
 
