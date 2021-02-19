@@ -160,7 +160,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "btn_execute"
-			position = {x=36 y=-32}	
+			position = {x=36 y=-32000}	
 			spriteType = "GFX_execute_button_play_small"
 			#spriteType = "GFX_execute_button_execute_order"
 			#buttonFont = "hoi_16mbs"
