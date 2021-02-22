@@ -2,8 +2,8 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "horsttool_open_container"
-		position = { x = -953 y = 4 }
-		Orientation = UPPER_RIGHT
+		position = { x = 680 y = 4 }
+		Orientation = UPPER_LEFT
 		buttonType = {
 			name = "tool_open"
 			#quadTextureSprite = "GFX_generic_bg"
@@ -18,7 +18,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "title"
 			#position = {x=22 y=5}
-			position = {x=3 y=4}
+			position = {x=8 y=4}
 			font = "hoi_18mbs"
 			text = "[transfer_states_tooltip]"
 			maxWidth = 200
@@ -81,6 +81,16 @@ guiTypes = {
 			name = "add_cheat3" 
 			position = {x=100 y=580}
 			buttontext = "1v1Preset"
+			quadTextureSprite ="GFX_button_123x34"	
+			buttonFont = "hoi_24header"
+			#spriteType = = "GFX_lobby_button"
+            #pdx_tooltip = "ADD_CHEAT"
+			#pdx_tooltip_delayed = "ADD_CHEAT_DELAYED"
+		}
+		buttonType = {
+			name = "add_cheat4" 
+			position = {x=550 y=320}
+			buttontext = "Tournament"
 			quadTextureSprite ="GFX_button_123x34"	
 			buttonFont = "hoi_24header"
 			#spriteType = = "GFX_lobby_button"

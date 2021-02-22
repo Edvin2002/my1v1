@@ -1,0 +1,159 @@
+guiTypes = {
+	
+	
+	containerWindowType = {
+		name = "topbar_resource_container"
+		#position = { x = 966 y = 0 }
+		#position = { x = 0 y = 0 }
+		size = { width=1920 height=1080}
+		Orientation = UPPER_LEFT
+		clipping=yes
+		#moveable = yes
+		containerWindowType = {
+		name = "topbar_resource_containerin"
+		position = { x = 800 y = 0 }
+		size = { width=400 height=36}
+		Orientation = UPPER_LEFT
+		clipping=yes
+		moveable = yes
+		background = {
+			name = "Background"
+			spriteType = "GFX_button_transparent2"
+			alwaystransparent=no
+			
+		}
+		iconType ={
+			name ="aluminium_value_bg"
+			quadTextureSprite = "GFX_generic_box_96"
+			position = { x=2 y=4 }#abstand jeweils 73
+			Orientation = "UPPER_LEFT"
+			alwaystransparent=yes
+		}
+		
+		iconType = {
+			name = "aluminium_icon"
+			position = { x=5 y=9 }
+			spriteType = "GFX_GER_extra_flag"
+			scale=0.65
+			alwaystransparent=yes
+			#pdx_tooltip = "disable_resources"
+		}
+		
+		instantTextboxType = {
+			name = "aluminium_value"
+			position = { x = 19 y = 8 }#x = 995
+			textureFile = ""
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text= [aluminium_text]
+			maxWidth = 80
+			maxHeight = 24
+			fixedsize = yes
+			format = center
+			alwaystransparent=yes
+			#pdx_tooltip = "PRODUCTION_MATERIALS_tungsten"
+					}
+	
+		
+		iconType ={
+			name ="rubber_value_bg"
+			quadTextureSprite = "GFX_generic_box_96"
+			position = { x=99 y=4 }#abstand jeweils 73
+			Orientation = "UPPER_LEFT"
+			alwaystransparent=yes
+		}
+		
+		iconType = {
+			name = "rubber_icon"
+			position = { x=102 y=9 }
+			spriteType = "GFX_GER_extra_flag"
+			#frame = 2
+			scale=0.65
+			pdx_tooltip = "PRODUCTION_MATERIALS_tungsten"
+			alwaystransparent=yes
+		}
+		instantTextboxType = {
+			name = "rubber_value"
+			position = { x = 120 y = 8 }#x = 995s
+			textureFile = ""
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text= [rubber_text]
+			maxWidth = 80
+			maxHeight = 24
+			fixedsize = yes
+			format = center
+			alwaystransparent=yes
+			#pdx_tooltip = "PRODUCTION_MATERIALS_tungsten"
+					}
+		iconType ={
+			name ="tungsten_value_bg"
+			quadTextureSprite = "GFX_generic_box_96"
+			position = { x=196 y=4 }#abstand jeweils 73
+			Orientation = "UPPER_LEFT"
+			alwaystransparent=yes
+		}
+		
+		iconType = {
+			name = "tungsten_icon"
+			position = { x=199 y=9 }
+			spriteType = "GFX_SOV_extra_flag"
+			scale=0.65
+			alwaystransparent=yes
+			pdx_tooltip = "PRODUCTION_MATERIALS_tungsten"
+		}
+		instantTextboxType = {
+			name = "tungsten_value"
+			position = { x = 212 y = 8 }#x = 995
+			textureFile = ""
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text= [tungsten_text]
+			maxWidth = 80
+			maxHeight = 24
+			fixedsize = yes
+			format = center
+			alwaystransparent=yes
+			#pdx_tooltip = "PRODUCTION_MATERIALS_tungsten"
+					}
+		#steel			
+		iconType ={
+			name ="steel_value_bg"
+			quadTextureSprite = "GFX_generic_box_96"
+			position = { x=293 y=4 }#abstand jeweils 73
+			Orientation = "UPPER_LEFT"
+			alwaystransparent=yes
+		}
+		
+		iconType = {
+			name = "steel_icon"
+			position = { x=296 y=9 }
+			spriteType = "GFX_SOV_extra_flag"
+			scale=0.65
+			alwaystransparent=yes
+			pdx_tooltip = "PRODUCTION_MATERIALS_tungsten"
+		}
+		instantTextboxType = {
+			name = "steel_value"
+			position = { x = 312 y = 8 }#x = 995
+			textureFile = ""
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text= [steel_text]
+			maxWidth = 80
+			maxHeight = 24
+			fixedsize = yes
+			format = center
+			alwaystransparent=yes
+			#pdx_tooltip = "PRODUCTION_MATERIALS_tungsten"
+					}
+		
+						
+		}
+		}
+		}
+
+	
+	
+	
+

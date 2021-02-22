@@ -7,11 +7,13 @@ scripted_gui = {
 		window_name = "horsttool_container"
 
 		visible = {
-			NOT = {tag=SWE}
+			OR={
+			SWE = {has_country_flag = transfer_enabled}
 			AND = {
 				
 				SOV = {has_country_flag = transfer_enabled}
 				GER = {has_country_flag = transfer_enabled}
+			}
 			}
 		}
 		
@@ -66,6 +68,24 @@ scripted_gui = {
 					set_variable={BEL.min_fuel = 0}
 					set_variable={FRA.min_fuel = 0}
 					set_variable={GLOBAL.enable_north_enabled=0}
+					set_variable={GLOBAL.enable_south_enabled=2}
+		
+			}
+			add_cheat4_click={
+					set_variable={GER.min_fuel = 32}
+					set_variable={SOV.min_fuel = 120}
+					set_variable={HOL.min_fuel = -0.8}
+					set_variable={ITA.min_fuel = -0.5}
+					set_variable={EFR.min_fuel = -1}
+					set_variable={DEN.min_fuel = 0}
+					set_variable={SWE.min_fuel = 0}
+					set_variable={BUL.min_fuel = 0}
+					set_variable={GRE.min_fuel = 0}
+					set_variable={PER.min_fuel = 0}
+					set_variable={LUX.min_fuel = 0}
+					set_variable={BEL.min_fuel = 0}
+					set_variable={FRA.min_fuel = 0}
+					set_variable={GLOBAL.enable_north_enabled=2}
 					set_variable={GLOBAL.enable_south_enabled=2}
 		
 			}	
@@ -150,6 +170,7 @@ scripted_gui = {
 				}
 				SOV = {clr_country_flag = transfer_enabled}
 				GER = {clr_country_flag = transfer_enabled}
+				SWE = {clr_country_flag = transfer_enabled}
 			GER = {division_template = {
 					name = "Infantry Division"
 					regiments = {
@@ -410,10 +431,139 @@ scripted_gui = {
 
 		}
 		triggers = {
-
+			whitepeace_click_enabled = {
+				ROOT = {
+				OR ={
+					AND = { NOT={original_tag=SWE}
+						SWE = {is_ai=yes}
+					}
+					original_tag=SWE
+				
+				}
+			}	
+			}
+			increase_min_fuel_button_click_enabled = {
+				ROOT = {
+				OR ={
+					AND = { NOT={original_tag=SWE}
+						SWE = {is_ai=yes}
+					}
+					original_tag=SWE
+				
+				}
+			}	
+			}
+			increase_min_fuel_button_shift_click_enabled = {
+				
+			ROOT = {
+				OR ={
+					AND = { NOT={original_tag=SWE}
+						SWE = {is_ai=yes}
+					}
+					original_tag=SWE
+				
+				}
+			}	
+			}
+			decrease_min_fuel_button_click_enabled = {
+			ROOT = {
+				OR ={
+					AND = { NOT={original_tag=SWE}
+						SWE = {is_ai=yes}
+					}
+					original_tag=SWE
+				
+				}
+			}	
+			}
+			decrease_min_fuel_button_shift_click_enabled = {
+				
+			ROOT = {
+				OR ={
+					AND = { NOT={original_tag=SWE}
+						SWE = {is_ai=yes}
+					}
+					original_tag=SWE
+				
+				}
+			}	
+			}
+			enable_north_click_enabled = {
+				ROOT = {
+				OR ={
+					AND = { NOT={original_tag=SWE}
+						SWE = {is_ai=yes}
+					}
+					original_tag=SWE
+				
+				}
+			}	
+			}
+			enable_south_click_enabled = {
+				ROOT = {
+				OR ={
+					AND = { NOT={original_tag=SWE}
+						SWE = {is_ai=yes}
+					}
+					original_tag=SWE
+				
+				}
+			}	
+			}
+			add_cheat2_click_enabled = {
+				ROOT = {
+				OR ={
+					AND = { NOT={original_tag=SWE}
+						SWE = {is_ai=yes}
+					}
+					original_tag=SWE
+				
+				}
+			}	
+			}
+			add_cheat3_click_enabled = {
+				ROOT = {
+				OR ={
+					AND = { NOT={original_tag=SWE}
+						SWE = {is_ai=yes}
+					}
+					original_tag=SWE
+				
+				}
+			}	
+			}
+			add_cheat4_click_enabled = {
+				ROOT = {
+				OR ={
+					AND = { NOT={original_tag=SWE}
+						SWE = {is_ai=yes}
+					}
+					original_tag=SWE
+				
+				}
+			}	
+			}
+			add_cheat_click_enabled = {
+				ROOT = {
+				OR ={
+					AND = { NOT={original_tag=SWE}
+						SWE = {is_ai=yes}
+					}
+					original_tag=SWE
+				
+				}
+			}	
+			}
 			observer_click_enabled = {
-				owner = {
-					is_ai=no}
+			ROOT = {
+				OR ={
+					AND = { NOT={original_tag=SWE}
+						SWE = {is_ai=yes}
+					}
+					original_tag=SWE
+				
+				}
+			}	
 			}
 
 

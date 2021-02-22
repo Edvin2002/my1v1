@@ -1,0 +1,17 @@
+scripted_gui = {
+	
+	
+	topbar_resources= {
+		context_type = player_context
+		window_name = "topbar_resource_container"
+		visible = {
+			original_tag=SWE
+		}
+		
+
+		triggers = {
+
+		}
+	}
+
+}
