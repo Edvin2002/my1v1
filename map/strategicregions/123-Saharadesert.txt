@@ -1,8 +1,7 @@
 strategic_region={
- id=123
- name="STRATEGICREGION_127"
- provinces={
-844 856 874 1291 1333 1367 3166
- }
- }
-
+	id=123
+	name="STRATEGICREGION_127"
+	provinces={
+		844 856 874 1291 1333 1367 3166
+	}
+}

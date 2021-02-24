@@ -183,6 +183,7 @@ NDefines.NDiplomacy.BASE_SEND_ATTACHE_COST= 100
 NDefines.NDiplomacy.TENSION_VOLUNTEER_FORCE_DIVISION = 0.15
 NDefines.NDiplomacy.VOLUNTEERS_TRANSFER_SPEED=0
 NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 50 -- Was 30, exists to help speed 5 macro
+NDefines.NTechnology.BASE_TECH_COST = 500
 
 --generals
 NDefines.NMilitary.UNIT_LEADER_ASSIGN_TRAIT_COST = 200

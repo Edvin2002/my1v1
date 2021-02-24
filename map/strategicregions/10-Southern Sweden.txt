@@ -1,8 +1,7 @@
 strategic_region={
- id=10
- name="STRATEGICREGION_10"
- provinces={
-35 66 184 2448
- }
- }
-
+	id=10
+	name="STRATEGICREGION_10"
+	provinces={
+		35 66 184 2448
+	}
+}

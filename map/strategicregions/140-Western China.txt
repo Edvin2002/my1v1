@@ -1,8 +1,7 @@
 strategic_region={
- id=140
- name="STRATEGICREGION_144"
- provinces={
-469 481 1009 1233 1334 1342 1372 2780
- }
- }
-
+	id=140
+	name="STRATEGICREGION_144"
+	provinces={
+		469 481 1009 1233 1334 1342 1372 2780
+	}
+}

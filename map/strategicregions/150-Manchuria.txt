@@ -1,8 +1,7 @@
 strategic_region={
- id=150
- name="STRATEGICREGION_155"
- provinces={
-690 706 735 774 887 1091 1231
- }
- }
-
+	id=150
+	name="STRATEGICREGION_155"
+	provinces={
+		690 706 735 774 887 1091 1231
+	}
+}

@@ -1,8 +1,7 @@
 strategic_region={
- id=176
- name="STRATEGICREGION_182"
- provinces={
-3176 3205 7283
- }
- }
-
+	id=176
+	name="STRATEGICREGION_182"
+	provinces={
+		3176 3205 7283
+	}
+}

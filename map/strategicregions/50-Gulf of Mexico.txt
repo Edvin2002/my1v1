@@ -1,8 +1,7 @@
 strategic_region={
- id=50
- name="STRATEGICREGION_52"
- provinces={
-1820 1843 1869 1894 1919 3890 3913 3961 3984 4010
- }
- }
-
+	id=50
+	name="STRATEGICREGION_52"
+	provinces={
+		1820 1843 1869 1894 1919 3890 3913 3961 3984 4010
+	}
+}
