@@ -1,6 +1,29 @@
 guiTypes = {
 	
-	
+	containerWindowType = {
+		name = "horsttool_container2"
+		position = {x=1290 y=0}
+		size = { width=123 height=34}
+		Orientation = UPPER_LEFT
+		clipping=no
+		moveable = yes
+		background = {
+			name = "Background"
+			spriteType = "GFX_button_transparent3"
+			alwaystransparent=no
+			
+		}
+		buttonType = {
+			name = "tool2_open"
+			buttontext ="Start"
+			quadTextureSprite ="GFX_button_123x34"	
+			buttonFont = "hoi_24header"
+			#position = { x = 390 y = 0 }
+			#scale=0.7
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		}
 	containerWindowType = {
 		name = "topbar_resource_container"
 		#position = { x = 966 y = 0 }
@@ -12,7 +35,7 @@ guiTypes = {
 		containerWindowType = {
 		name = "topbar_resource_containerin"
 		position = { x = 800 y = 0 }
-		size = { width=400 height=36}
+		size = { width=600 height=36}
 		Orientation = UPPER_LEFT
 		clipping=yes
 		moveable = yes
@@ -22,6 +45,7 @@ guiTypes = {
 			alwaystransparent=no
 			
 		}
+		
 		iconType ={
 			name ="aluminium_value_bg"
 			quadTextureSprite = "GFX_generic_box_96"
@@ -29,7 +53,6 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			alwaystransparent=yes
 		}
-		
 		iconType = {
 			name = "aluminium_icon"
 			position = { x=5 y=9 }
@@ -146,8 +169,29 @@ guiTypes = {
 			format = center
 			alwaystransparent=yes
 			#pdx_tooltip = "PRODUCTION_MATERIALS_tungsten"
-					}
-		
+			}
+					
+		iconType ={
+			name ="chromium_value_bg"
+			quadTextureSprite = "GFX_generic_box_96"
+			position = { x=390 y=4 }#abstand jeweils 73
+			Orientation = "UPPER_LEFT"
+			alwaystransparent=yes
+		}
+		instantTextboxType = {
+			name = "chromium_value"
+			position = { x = 400 y = 8 }#x = 995
+			textureFile = ""
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text= [chromium_text]
+			maxWidth = 80
+			maxHeight = 24
+			fixedsize = yes
+			format = left
+			alwaystransparent=yes
+			#pdx_tooltip = "PRODUCTION_MATERIALS_tungsten"
+			}
 						
 		}
 		}

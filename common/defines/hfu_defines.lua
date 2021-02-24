@@ -5,12 +5,13 @@
 NDefines.NMilitary.NUKE_MIN_DAMAGE_PERCENT =0
 NDefines.NMilitary.NUKE_MAX_DAMAGE_PERCENT =0.1
 NDefines.NMilitary.NUKE_DELAY_HOURS =12
-NDefines.NPolitics.ARMY_LEADER_COST = 100
-NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 1
-NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 1
+NDefines.NPolitics.ARMY_LEADER_COST = 1000
+NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = -1
+NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = -1
 NDefines.NMilitary.ATTRITION_EQUIPMENT_LOSS_CHANCE = 0
 NDefines.NMilitary.ATTRITION_EQUIPMENT_PER_TYPE_LOSS_CHANCE = 0
 NDefines.NMilitary.LAND_COMBAT_COLLATERAL_FACTOR = 0
+NDefines.NMilitary.PROMOTE_LEADER_CP_COST = 300
 ---
 --new graphics
 NDefines.NGraphics.COUNTRY_COLOR_SATURATION_MODIFIER = 0.9 -- 0.6
@@ -217,6 +218,7 @@ NDefines.NBuildings.NAVALBASE_REPAIR_MULT = 0.075
 NDefines.NNavy.RESOURCE_EXPORT_PRIORITY = 3 --swapped prio so imports go first
 NDefines.NNavy.RESOURCE_LENDLEASE_PRIORITY = 3
 NDefines.NNavy.RESOURCE_ORIGIN_PRIORITY = 3
+NDefines.NDiplomacy.BASE_TRUCE_PERIOD = 0
 -------------------------------------
 --Combat 
 NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0   -- global damage modifier... but some equipment is returned at end of battles see : EQUIPMENT_COMBAT_LOSS_FACTOR
@@ -235,7 +237,7 @@ NDefines.NMilitary.FIELD_EXPERIENCE_SCALE = 0.005
 NDefines.NMilitary.FIELD_EXPERIENCE_MAX_PER_DAY = 3
 NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.1
 NDefines.NMilitary.COMBAT_MINIMUM_TIME = 2
-NDefines.NMilitary.SUPPLY_GRACE = 120
+NDefines.NMilitary.SUPPLY_GRACE = 72
 NDefines.NCountry.REINFORCEMENT_EQUIPMENT_DELIVERY_SPEED = 0.6
 NDefines.NCountry.REINFORCEMENT_MANPOWER_DELIVERY_SPEED = 20
 NDefines.NCountry.REINFORCEMENT_MANPOWER_CHUNK = 0.08

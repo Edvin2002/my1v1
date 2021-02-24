@@ -1,4 +1,15 @@
+
 on_actions = {
+	on_war = {
+	effect = {
+	clear_variable=SWE.passed_days
+	}
+}
+on_daily_SWE = {
+effect = {
+add_to_variable={SWE.passed_days=1}
+}
+}
 	on_monthly_SWE = {
 	effect = {
 	add_intel = {

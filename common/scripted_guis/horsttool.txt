@@ -141,6 +141,7 @@ scripted_gui = {
 			set_variable={GLOBAL.match_started=1}
 		
 			SOV = {
+			if = {limit={SOV={has_war=yes}} SOV = { white_peace = GER }}
 			create_wargoal = {
 			type = puppet_wargoal_focus
 			target = GER

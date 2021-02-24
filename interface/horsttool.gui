@@ -27,7 +27,7 @@ guiTypes = {
 		}
 
 	}
-		
+	
 	containerWindowType = {
 		name = "horsttool_container"
 		position = {x=600 y=200}
@@ -35,7 +35,6 @@ guiTypes = {
 		Orientation = UPPER_LEFT
 		fade_time = 300
 		fade_type = linear
-		moveable = yes
 		
 		background = {
 			name = "Background"

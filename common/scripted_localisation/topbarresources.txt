@@ -1,4 +1,23 @@
 
+defined_text = { # global
+	name = chromium_text
+	text = {
+		trigger = {
+			GER={has_war=yes}
+		}
+		 localization_key =day_loc
+		#localization_key = "Tanks :[?SOV.num_battalions_with_type@mot_recon|0+]"
+	}
+	text = {
+		trigger = {
+			GER={has_war=no}
+		}
+		 
+		localization_key = "Days : 0"
+	}
+
+
+}
 
 defined_text = { # global
 	name = steel_text

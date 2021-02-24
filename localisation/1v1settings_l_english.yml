@@ -17,4 +17,5 @@
   value_desc_3:0"[?min_fuel|G-%0]"
   start_desc_1:0"Start"
   start_desc_2:0"Restart"
+  day_loc:0 "Days : [?passed_days]"
   

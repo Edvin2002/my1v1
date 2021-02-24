@@ -9,9 +9,34 @@ scripted_gui = {
 		}
 		
 
-		triggers = {
+		
 
+	}
+	topbar_resources2= {
+		context_type = player_context
+		window_name = "horsttool_container2"
+		visible = {
+			original_tag=SWE
+			GER={has_war=no}
+		}
+		
+
+		
+
+		effects = {
+			tool2_open_click = {
+				SOV = { declare_war_on = {
+   						target = GER
+    						type = annex_everything
+					}
+				}
+			}
+		}
+		triggers = {
+			tool2_open_click_enabled = {
+				always = yes
+		
+			}
 		}
 	}
-
 }
