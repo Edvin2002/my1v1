@@ -35,7 +35,7 @@ guiTypes = {
 		containerWindowType = {
 		name = "topbar_resource_containerin"
 		position = { x = 800 y = 0 }
-		size = { width=600 height=36}
+		size = { width=650 height=36}
 		Orientation = UPPER_LEFT
 		clipping=yes
 		moveable = yes
@@ -156,6 +156,7 @@ guiTypes = {
 			alwaystransparent=yes
 			pdx_tooltip = "PRODUCTION_MATERIALS_tungsten"
 		}
+		
 		instantTextboxType = {
 			name = "steel_value"
 			position = { x = 312 y = 8 }#x = 995
@@ -174,7 +175,7 @@ guiTypes = {
 		iconType ={
 			name ="chromium_value_bg"
 			quadTextureSprite = "GFX_generic_box_96"
-			position = { x=390 y=4 }#abstand jeweils 73
+			position = { x=391 y=4 }#abstand jeweils 73
 			Orientation = "UPPER_LEFT"
 			alwaystransparent=yes
 		}
@@ -192,7 +193,28 @@ guiTypes = {
 			alwaystransparent=yes
 			#pdx_tooltip = "PRODUCTION_MATERIALS_tungsten"
 			}
-						
+			
+		iconType ={
+			name ="chromium2_value_bg"
+			quadTextureSprite = "GFX_generic_box_125"
+			position = { x=491 y=4 }#abstand jeweils 73
+			Orientation = "UPPER_LEFT"
+			alwaystransparent=yes
+		}
+		instantTextboxType = {
+			name = "chromium2_value"
+			position = { x = 495 y = 8 }#x = 995
+			textureFile = ""
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text= [chromium2_text]
+			maxWidth = 500
+			maxHeight = 24
+			fixedsize = yes
+			format = left
+			alwaystransparent=yes
+			#pdx_tooltip = "PRODUCTION_MATERIALS_tungsten"
+			}			
 		}
 		}
 		}

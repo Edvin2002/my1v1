@@ -1,15 +1,53 @@
 
 on_actions = {
 	on_war = {
-	effect = {
-	clear_variable=SWE.passed_days
+		effect = {
+			clear_variable=SWE.passed_days
+		}
 	}
-}
-on_daily_SWE = {
-effect = {
-add_to_variable={SWE.passed_days=1}
-}
-}
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit={FROM.FROM = {OR={state=52 state= 64 state = 195 state=199}}}
+				clear_variable=SWE.win_con
+				set_variable={SWE.win_days=14}
+				if = {
+					limit={SOV={controls_state=52}}
+					add_to_variable={SWE.win_con=1}
+				}
+				else = {
+					add_to_variable={SWE.win_con=-1}
+				}
+				if = {
+					limit={SOV={controls_state=64}}
+					add_to_variable={SWE.win_con=1}
+				}
+				else = {
+					add_to_variable={SWE.win_con=-1}
+				}
+				if = {
+					limit={SOV={controls_state=195}}
+					add_to_variable={SWE.win_con=1}
+				}
+				else = {
+					add_to_variable={SWE.win_con=-1}
+				}
+				if = {
+					limit={SOV={controls_state=199}}
+					add_to_variable={SWE.win_con=1}
+				}
+				else = {
+					add_to_variable={SWE.win_con=-1}
+				}
+			}
+		}
+	}
+	on_daily_SWE = {
+		effect = {
+		add_to_variable={SWE.passed_days=1}
+		add_to_variable={SWE.win_days=-1}
+		}
+	}
 	on_monthly_SWE = {
 	effect = {
 	add_intel = {

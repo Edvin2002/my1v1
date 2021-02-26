@@ -18,7 +18,33 @@ defined_text = { # global
 
 
 }
+defined_text = { # global
+	name = chromium2_text
+	text = {
+		trigger = {
+			check_variable={win_con=4}
+		}
+		 localization_key =win_day_loc_SOV
+	}
+	text = {
+		trigger = {
+			check_variable={win_con=-4}
+		}
+		 localization_key =win_day_loc_GER
+	}
+	text = {
+		trigger = {
+			OR = {
+			NOT={check_variable={win_con=-4}}
+			NOT={check_variable={win_con=4}}
+			}
+		}
+		 
+		localization_key = "Undecided"
+	}
 
+
+}
 defined_text = { # global
 	name = steel_text
 	text = {

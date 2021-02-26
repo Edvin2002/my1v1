@@ -18,4 +18,5 @@
   start_desc_1:0"Start"
   start_desc_2:0"Restart"
   day_loc:0 "Days : [?passed_days]"
-  
+  win_day_loc_SOV:0 "SOV Win : [?win_days] Days"
+  win_day_loc_GER:0 "GER Win : [?win_days] Days"
