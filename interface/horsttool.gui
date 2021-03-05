@@ -35,7 +35,7 @@ guiTypes = {
 		Orientation = UPPER_LEFT
 		fade_time = 300
 		fade_type = linear
-		
+		moveable=yes
 		background = {
 			name = "Background"
 			#spriteType = "GFX_generic_bg_307x113"
