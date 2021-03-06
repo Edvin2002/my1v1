@@ -8,6 +8,8 @@
  OBSERVER:0 "§HObserve§!\nMoves player to observer mode\n\n"
  OBSERVER_DELAYED:0 ""
  
+ OBSERVER2:0 "§HSwap Countries§!\nSwap Soviet and German Players\n\n"
+ OBSERVER2_DELAYED:0 ""
  WHITEPEACE:0 "§HWhitepeace§!\nCountry will be whitepeaced with every enemy\n\n"
  WHITEPEACE_DELAYED:0 ""
  

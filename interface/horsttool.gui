@@ -142,9 +142,17 @@ guiTypes = {
 			name = "observer" 
 			position = {x=555 y=100}
 			spriteType = "GFX_observer_button"
-         		pdx_tooltip = "OBSERVER"
+         	pdx_tooltip = "OBSERVER"
 			pdx_tooltip_delayed = "OBSERVER_DELAYED"
 			scale = 0.70
+		}
+		buttonType = {
+			name = "observer2" 
+			position = {x=555 y=150}
+			spriteType = "GFX_swap_button"
+         	pdx_tooltip = "OBSERVER2"
+			pdx_tooltip_delayed = "OBSERVER2_DELAYED"
+			scale = 1
 		}
 		buttonType = {
 			name = "whitepeace"	

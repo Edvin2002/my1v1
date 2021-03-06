@@ -324,15 +324,23 @@ scripted_gui = {
 				}
 				}}
 			}
-			observer_click = { 
+			observer_click = {
+					
 					PHI = {change_tag_from =GER}
-					PHI = {change_tag_from =SWE}
-					PHI = {change_tag_from =SOV}
+					FRA = {change_tag_from =SWE}
+					LUX = {change_tag_from =SOV}
 
 				
 
 			}
+			
+			observer2_click = { 
+					GER = {change_tag_from =SOV}
+					SOV = {change_tag_from =GER}
 
+				
+
+			}
 			whitepeace_click  = {
 					
 						SOV = { white_peace = GER }
@@ -556,6 +564,17 @@ scripted_gui = {
 			}	
 			}
 			observer_click_enabled = {
+			ROOT = {
+				OR ={
+					AND = { NOT={original_tag=SWE}
+						SWE = {is_ai=yes}
+					}
+					original_tag=SWE
+				
+				}
+			}	
+			}
+			observer2_click_enabled = {
 			ROOT = {
 				OR ={
 					AND = { NOT={original_tag=SWE}
